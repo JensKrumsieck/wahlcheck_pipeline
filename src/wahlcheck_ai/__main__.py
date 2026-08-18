@@ -1,12 +1,10 @@
 import json
-
+from tqdm import tqdm
 from wahlcheck_ai import expansion
-from wahlcheck_ai.config import DOCUMENTS_DIR
-from llama_index.core.schema import NodeWithScore
+from wahlcheck_ai.config import DOCUMENTS_DIR, RETRIEVAL_DIR
 from wahlcheck_ai.embed import build_party_index
 from glob import glob
-from pprint import pprint
-from wahlcheck_ai.retrieve import TOP_K, get_reranker, retrieve_candidates
+from wahlcheck_ai.retrieve import retrieve_and_rerank
 
 
 def main() -> None:
@@ -24,30 +22,13 @@ def main() -> None:
                 " ".join(these["implications"]),
                 these["opposing"],
             ]
-        nodes = retrieve_candidates(vector_index, bm25_retriever, queries)  # type: ignore
-        reranker = get_reranker()
-        reranker.top_n = TOP_K
-        retrievals = []
-        for these in theses:
-            thesis = these["these"]["these"]
-            top = reranker.postprocess_nodes(
-                nodes,
-                query_str=thesis,  # type: ignore
-            )
-            retrievals.append([_slim_window(result) for result in top])
-            
-        with open("test.json", "w", encoding="utf-8") as f:
-            json.dump(retrievals, f, ensure_ascii=False)
+        print(f"Retrieving and Reranking Theses for {file}")
 
-
-def _slim_window(result: NodeWithScore) -> dict:
-    metadata = result.node.metadata
-    return {
-        "id": result.node.node_id,
-        "metadata": metadata,
-        "fused_score": metadata.get("retrieval_score"),
-        "rerank_score": result.score,
-    }
+        filename = RETRIEVAL_DIR / file / "reranked.json"
+        if not filename.exists():
+            retrievals = retrieve_and_rerank(vector_index, bm25_retriever, queries, theses)  # type: ignore
+            with open(filename, "w", encoding="utf-8") as f:
+                json.dump(retrievals, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
