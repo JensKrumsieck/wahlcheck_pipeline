@@ -23,11 +23,11 @@ _RERANKER: SentenceTransformerRerank | None = None
 def retrieve_for(
     filename: Path, theses, vector_index, bm25_retriever, force: bool = False
 ):
-    print(f"Retrieving and Reranking Theses for {filename.stem}")
 
     filename = RETRIEVAL_DIR / f"{filename.stem}.json"
     os.makedirs(filename.parent, exist_ok=True)
     if not filename.exists() or force:
+        print(f"Retrieving and Reranking Theses for {filename.stem}")
         retrievals = {}
         for these in tqdm(theses):
             thesis = these["these"]["these"]
@@ -95,14 +95,12 @@ def retrieve_candidates(
 def rerank_candidates(nodes, these):
     reranker = get_reranker()
     reranker.top_n = K_CANDIDATES
-    retrievals = []
     thesis = these["these"]["these"]
     top = reranker.postprocess_nodes(
         nodes,
         query_str=thesis,  # type: ignore
     )
-    retrievals.append([_slim_window(result) for result in top])
-    return retrievals
+    return [_slim_window(result) for result in top]
 
 
 def retrieve_and_rerank(vector_index, bm25_retriever, queries, theses):
