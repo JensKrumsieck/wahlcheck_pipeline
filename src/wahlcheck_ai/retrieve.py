@@ -1,5 +1,3 @@
-import json
-
 from llama_index.core import VectorStoreIndex
 from llama_index.core.llms import MockLLM
 from llama_index.core.retrievers import QueryFusionRetriever
@@ -62,30 +60,30 @@ def retrieve_candidates(
     return sorted(best.values(), key=lambda result: -(result.score or 0))[:K_CANDIDATES]
 
 
-def rerank_candidates(nodes, theses):
+def rerank_candidates(nodes, these):
     reranker = get_reranker()
     reranker.top_n = K_CANDIDATES
     retrievals = []
-    for these in tqdm(theses):
-        thesis = these["these"]["these"]
-        top = reranker.postprocess_nodes(
-            nodes,
-            query_str=thesis,  # type: ignore
-        )
-        retrievals.append([_slim_window(result) for result in top])
+    thesis = these["these"]["these"]
+    top = reranker.postprocess_nodes(
+        nodes,
+        query_str=thesis,  # type: ignore
+    )
+    retrievals.append([_slim_window(result) for result in top])
     return retrievals
 
 
 def retrieve_and_rerank(vector_index, bm25_retriever, queries, theses):
     nodes = retrieve_candidates(vector_index, bm25_retriever, queries)  # type: ignore
-    rerank_candidates(nodes, theses)
+    return rerank_candidates(nodes, theses)
 
 
 def _slim_window(result: NodeWithScore) -> dict:
     metadata = result.node.metadata
     return {
         "id": result.node.node_id,
-        "metadata": metadata,
+        "sentence_ids": metadata["sentence_ids"],
+        "pages": metadata["pages"],
         "fused_score": metadata.get("retrieval_score"),
         "rerank_score": result.score,
     }
