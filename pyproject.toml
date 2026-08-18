@@ -1,0 +1,39 @@
+[project]
+name = "wahlcheck_ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [{ name = "Jens Krumsieck", email = "j.krumsieck@outlook.de" }]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ftfy>=6.3.1",
+    "hf-xet>=1.6.0",
+    "llama-index>=0.14.23",
+    "llama-index-embeddings-huggingface>=0.7.0",
+    "llama-index-postprocessor-sbert-rerank>=0.5.0",
+    "llama-index-retrievers-bm25>=0.7.1",
+    "ollama>=0.6.2",
+    "openai>=2.54.0",
+    "pymupdf>=1.28.2",
+    "pymupdf4llm>=1.28.2",
+    "syntok>=1.4.4",
+    "torch>=2.13.0",
+]
+
+[project.scripts]
+wahlcheck_ai = "wahlcheck_ai.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+de-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.8.0/de_core_news_sm-3.8.0-py3-none-any.whl" }
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true

@@ -1,0 +1,278 @@
+[
+    {
+        "id": "60",
+        "metadata": {
+            "pages": [
+                4,
+                5
+            ],
+            "sentence_ids": [
+                60,
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ]
+            ],
+            "text": "In den vergangenen Jahren erleben Bürger immer wieder, dass für ideologische Projekte oder Symbolpolitik Geld bereitgestellt wird, während gleichzeitig bei Kernaufgaben, Infrastruktur, Sicherheit oder kommunalen Leistungen finanzielle Engpässe entstehen. Eine solche Politik lehnen wir ab. Braunschweig muss sich wieder stärker auf seine eigentlichen Aufgaben konzentrieren: funktionierende Infrastruktur, Sicherheit, Bildung, Familien, Ordnung, Verwaltung und eine leistungsfähige Stadt. Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit messen lassen. Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger.",
+            "retrieval_score": 0.028629032258064516
+        },
+        "fused_score": 0.028629032258064516,
+        "rerank_score": 0.08058226108551025
+    },
+    {
+        "id": "63",
+        "metadata": {
+            "pages": [
+                5,
+                6
+            ],
+            "sentence_ids": [
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ],
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**2. Kinder, Familie & Bildung**"
+                ]
+            ],
+            "text": "Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit messen lassen. Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger. Braunschweig braucht wieder eine Finanzpolitik, die sich rechnet. ## **2. Kinder, Familie & Bildung** ",
+            "retrieval_score": 0.028370221327967807
+        },
+        "fused_score": 0.028370221327967807,
+        "rerank_score": 0.05179499089717865
+    },
+    {
+        "id": "64",
+        "metadata": {
+            "pages": [
+                5,
+                6
+            ],
+            "sentence_ids": [
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ],
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**2. Kinder, Familie & Bildung**"
+                ]
+            ],
+            "text": "Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger. Braunschweig braucht wieder eine Finanzpolitik, die sich rechnet. ## **2. Kinder, Familie & Bildung**  **Starke Familien, verlässliche Betreuung und leistungsfähige Bildung sichern die Zukunft unserer Stadt und sind das Fundament einer funktionierenden Gemeinschaft.** ",
+            "retrieval_score": 0.029083245521601686
+        },
+        "fused_score": 0.029083245521601686,
+        "rerank_score": 0.04459855332970619
+    },
+    {
+        "id": "61",
+        "metadata": {
+            "pages": [
+                4,
+                5
+            ],
+            "sentence_ids": [
+                61,
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ]
+            ],
+            "text": "Eine solche Politik lehnen wir ab. Braunschweig muss sich wieder stärker auf seine eigentlichen Aufgaben konzentrieren: funktionierende Infrastruktur, Sicherheit, Bildung, Familien, Ordnung, Verwaltung und eine leistungsfähige Stadt. Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit messen lassen. Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger. Braunschweig braucht wieder eine Finanzpolitik, die sich rechnet.",
+            "retrieval_score": 0.027242401779095628
+        },
+        "fused_score": 0.027242401779095628,
+        "rerank_score": 0.04231543838977814
+    },
+    {
+        "id": "65",
+        "metadata": {
+            "pages": [
+                5,
+                6
+            ],
+            "sentence_ids": [
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71,
+                72,
+                73,
+                74
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ],
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**2. Kinder, Familie & Bildung**"
+                ]
+            ],
+            "text": "Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger. Braunschweig braucht wieder eine Finanzpolitik, die sich rechnet. ## **2. Kinder, Familie & Bildung**  **Starke Familien, verlässliche Betreuung und leistungsfähige Bildung sichern die Zukunft unserer Stadt und sind das Fundament einer funktionierenden Gemeinschaft.**  ### **Position** ",
+            "retrieval_score": 0.028006267136701922
+        },
+        "fused_score": 0.028006267136701922,
+        "rerank_score": 0.038815587759017944
+    },
+    {
+        "id": "62",
+        "metadata": {
+            "pages": [
+                5,
+                6
+            ],
+            "sentence_ids": [
+                62,
+                63,
+                64,
+                65,
+                66,
+                67,
+                68,
+                69,
+                70,
+                71
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ]
+            ],
+            "text": "Braunschweig muss sich wieder stärker auf seine eigentlichen Aufgaben konzentrieren: funktionierende Infrastruktur, Sicherheit, Bildung, Familien, Ordnung, Verwaltung und eine leistungsfähige Stadt. Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit messen lassen. Freiwillige Leistungen, Förderprogramme und zusätzliche Projekte müssen regelmäßig kritisch überprüft werden. Nicht alles, was politisch wünschenswert erscheint, ist auch finanziell verantwortbar. Neue Schulden dürfen nicht zur bequemen Antwort auf politische Fehlentscheidungen werden. Wer heute ohne Maß wirtschaftet, belastet am Ende kommende Generationen und schränkt die Handlungsfähigkeit der Stadt langfristig ein. Gleichzeitig dürfen Bürger, Eigentümer, Familien und Unternehmen nicht immer weiter durch zusätzliche kommunale Belastungen, Abgaben oder indirekte Kosten unter Druck gesetzt werden. Wir setzen deshalb auf eine Finanzpolitik mit klaren Prioritäten: Kernaufgaben zuerst, Haushaltsdisziplin statt Verschwendung, Transparenz statt Haushaltstricks und verantwortungsvoller Umgang mit dem Geld der Bürger. Braunschweig braucht wieder eine Finanzpolitik, die sich rechnet. ## **2.",
+            "retrieval_score": 0.029411764705882353
+        },
+        "fused_score": 0.029411764705882353,
+        "rerank_score": 0.026892805472016335
+    },
+    {
+        "id": "50",
+        "metadata": {
+            "pages": [
+                4
+            ],
+            "sentence_ids": [
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58,
+                59
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Maßnahmen**"
+                ],
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ]
+            ],
+            "text": "- Effizientere Verwaltungsstrukturen zur Entlastung des Haushalts  - Bessere Priorisierung kommunaler Investitionen  - Schutz der Bürger vor zusätzlichen kommunalen Belastungen, soweit kommunal beeinflussbar  - Regelmäßige Aufgabenkritik innerhalb der Verwaltung  ### **Weniger Verschwendung. Mehr Braunschweig.**  Eine Stadt kann nur dann dauerhaft handlungsfähig bleiben, wenn sie solide wirtschaftet und verantwortungsvoll mit dem Geld ihrer Bürger umgeht. Steuergeld ist kein Selbstbedienungstopf für politische Wünsche, sondern hart erarbeitetes Geld der Bürger. Deshalb braucht Braunschweig wieder eine Finanzpolitik mit klaren Prioritäten, Haushaltsdisziplin und wirtschaftlicher Vernunft. Wir sagen klar: Schluss mit politischer Ausgabenpolitik ohne Augenmaß.",
+            "retrieval_score": 0.027583600982429624
+        },
+        "fused_score": 0.027583600982429624,
+        "rerank_score": 0.02204355224967003
+    },
+    {
+        "id": "49",
+        "metadata": {
+            "pages": [
+                4
+            ],
+            "sentence_ids": [
+                49,
+                50,
+                51,
+                52,
+                53,
+                54,
+                55,
+                56,
+                57,
+                58
+            ],
+            "headings": [
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Maßnahmen**"
+                ],
+                [
+                    "**_ZEIT FÜR_** **_<u>BRAUNSCHWEIG</u>_**",
+                    "**1. Finanzen**",
+                    "**Weniger Verschwendung. Mehr Braunschweig.**"
+                ]
+            ],
+            "text": "- Vermeidung neuer unnötiger Verschuldung  - Effizientere Verwaltungsstrukturen zur Entlastung des Haushalts  - Bessere Priorisierung kommunaler Investitionen  - Schutz der Bürger vor zusätzlichen kommunalen Belastungen, soweit kommunal beeinflussbar  - Regelmäßige Aufgabenkritik innerhalb der Verwaltung  ### **Weniger Verschwendung. Mehr Braunschweig.**  Eine Stadt kann nur dann dauerhaft handlungsfähig bleiben, wenn sie solide wirtschaftet und verantwortungsvoll mit dem Geld ihrer Bürger umgeht. Steuergeld ist kein Selbstbedienungstopf für politische Wünsche, sondern hart erarbeitetes Geld der Bürger. Deshalb braucht Braunschweig wieder eine Finanzpolitik mit klaren Prioritäten, Haushaltsdisziplin und wirtschaftlicher Vernunft.",
+            "retrieval_score": 0.02904040404040404
+        },
+        "fused_score": 0.02904040404040404,
+        "rerank_score": 0.021474864333868027
+    }
+]
