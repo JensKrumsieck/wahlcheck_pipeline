@@ -84,6 +84,8 @@ def _slim_window(result: NodeWithScore) -> dict:
         "id": result.node.node_id,
         "sentence_ids": metadata["sentence_ids"],
         "pages": metadata["pages"],
+        "headings": metadata["headings"],
+        "text": metadata["text"],
         "fused_score": metadata.get("retrieval_score"),
         "rerank_score": result.score,
     }
