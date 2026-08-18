@@ -19,7 +19,7 @@ def main() -> None:
         filename = RETRIEVAL_DIR / f"{filename.stem}.json"
         os.makedirs(filename.parent, exist_ok=True)
         if not filename.exists():
-            retrievals = []
+            retrievals = {}
             for these in tqdm(theses):
                 thesis = these["these"]["these"]
                 queries = [
@@ -30,7 +30,7 @@ def main() -> None:
                     " ".join(these["implications"]),
                     these["opposing"],
                 ]
-                retrievals.extend(retrieve_and_rerank(vector_index, bm25_retriever, queries, these))  # type: ignore
+                retrievals[these["these"]["id"]] = retrieve_and_rerank(vector_index, bm25_retriever, queries, these)  # type: ignore
             with open(filename, "w", encoding="utf-8") as f:
                 json.dump(retrievals, f, ensure_ascii=False, indent=4)
 
