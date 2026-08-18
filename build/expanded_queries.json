@@ -1,0 +1,2364 @@
+[
+    {
+        "these": {
+            "id": "verkehr-01",
+            "category": "Verkehr & Mobilität",
+            "these": "Der Autoverkehr in der Innenstadt soll zugunsten von Rad- und Busverkehr eingeschränkt werden."
+        },
+        "opposing": "Kritik an Beschränkung des Autoverkehrs in Innenstädten zugunsten von Rad- und Busverkehr negative Folgen Autoverkehrs‑Einschränkung Innenstadt",
+        "topics": [
+            "Verkehrspolitik",
+            "Stadtentwicklung",
+            "Umwelt- und Klimaschutz",
+            "Nachhaltige Mobilität",
+            "Luftqualität",
+            "Stadtklima",
+            "Verkehrssicherheit",
+            "Innenstadtgestaltung"
+        ],
+        "measures": [
+            "Einführung von Fahrverboten für MIV in der Innenstadt",
+            "Ausbau von Velorouten und Radwegen",
+            "Einrichtung von Busspuren (BRT)",
+            "Ausbau des ÖPNV (Bus, Straßenbahn)",
+            "Reduzierung von Parkflächen und Parkplatzgebühren",
+            "Einführung von Tempo‑30‑Zonen",
+            "Einrichtung von autofreien Zonen",
+            "Förderung von Car‑Sharing und Mitfahrgelegenheiten",
+            "Umwelt‑ bzw. Emissionszonen"
+        ],
+        "contexts": [
+            "Innenstadt Braunschweig",
+            "Kernstadt",
+            "Fußgängerzone",
+            "Städtisches Verkehrsnetz",
+            "Öffentlicher Personennahverkehr (ÖPNV)",
+            "Schienenpersonennahverkehr (SPNV)",
+            "Lokale Mobilitätsplanung"
+        ],
+        "goals": [
+            "Reduktion von CO₂‑Emissionen",
+            "Verbesserung der Luft‑ und Lärmqualität",
+            "Steigerung der Lebensqualität im Stadtzentrum",
+            "Erhöhung der Rad‑ und ÖPNV‑Nutzung",
+            "Entlastung von Staus",
+            "Förderung einer Verkehrswende",
+            "Klimaneutralität der Stadt",
+            "Sicherere Verkehrsverhältnisse für Fußgänger und Radfahrer"
+        ],
+        "implications": [
+            "Verlagerung vom motorisierten Individualverkehr (MIV) zum multimodalen Verkehr",
+            "Nachhaltige Stadtentwicklung",
+            "Stärkung des öffentlichen Nahverkehrs",
+            "Mehr Raum für öffentliche Plätze und Grünflächen",
+            "Soziale Gerechtigkeit im Verkehrsbereich",
+            "Förderung von Mikro‑Mobilität",
+            "Reduktion des Parkplatzbedarfs",
+            "Integration von Rad‑ und Busverkehr in ein gemeinsames Mobilitätsnetz"
+        ],
+        "terms": [
+            "MIV",
+            "Velorouten",
+            "ÖPNV",
+            "SPNV"
+        ]
+    },
+    {
+        "these": {
+            "id": "verkehr-02",
+            "category": "Verkehr & Mobilität",
+            "these": "Tempo 30 soll in Braunschweig der Standard sein, vor allem in der Innenstadt und in Wohngebieten."
+        },
+        "opposing": "Bedenken gegen flächendeckende Tempo‑30‑Zonen in Braunschweig Innenstadt und Wohngebieten, insbesondere Kritik an Verkehrsstau, Notfallfahrzeugen, wirtschaftlichen Folgen und Durchsetzbarkeit",
+        "topics": [
+            "Verkehrssicherheit",
+            "Umwelt‑ und Klimaschutz",
+            "Stadtverkehr",
+            "Lärmschutz",
+            "Lebensqualität",
+            "Nachhaltige Mobilität",
+            "Verkehrsplanung"
+        ],
+        "measures": [
+            "Einführung von Tempo‑30‑Zonen",
+            "Ausweisung von Tempo‑30‑Strecken in Innenstadt und Wohngebieten",
+            "Verkehrsberuhigung durch Tempolimit",
+            "Beschilderung von 30‑km/h‑Bereichen",
+            "Durchsetzung mittels Radar und Bußgeldern",
+            "Anpassung der StVO – Tempolimit‑Standard",
+            "Integration in Bebauungspläne",
+            "Verkehrsüberwachung und -kontrolle",
+            "Aufklärungskampagnen und Verkehrserziehung"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "Innenstadt",
+            "Wohngebiete",
+            "Städtische Straßen",
+            "BSVG‑Netz",
+            "MIV‑Reduktion",
+            "Mobilitätsentwicklungsplan 2035+",
+            "Verkehrsverbund Region Braunschweig (VRB)",
+            "ÖPNV‑Integration",
+            "Stadtentwicklung",
+            "Klimaschutzplan Braunschweig"
+        ],
+        "goals": [
+            "Reduktion von Verkehrsunfällen",
+            "Verringerung von CO₂‑Emissionen",
+            "Verbesserung der Luftqualität",
+            "Lärmminderung",
+            "Steigerung der Aufenthaltsqualität",
+            "Förderung von Fußgänger‑ und Radverkehr",
+            "Erhöhung der städtischen Lebensqualität",
+            "Beitrag zu Klimaneutralitätszielen"
+        ],
+        "implications": [
+            "Erforderliche Mess‑ und Kontrollsysteme",
+            "Mögliche Konflikte mit motorisiertem Individualverkehr",
+            "Anpassungen im Mobilitätsentwicklungsplan",
+            "Synergie mit ÖPNV‑Ausbau",
+            "Finanzierungsbedarf für Beschilderung und Kontrollen",
+            "Erweiterung verkehrsberuhigter Bereiche (VBB)",
+            "Auswirkungen auf Lieferverkehr und Gewerbe",
+            "Bürgerbeteiligung zur Akzeptanzsteigerung",
+            "Verknüpfung mit Stadtklimaschutz‑ und Luftreinhalteplänen"
+        ],
+        "terms": [
+            "BSVG",
+            "MIV",
+            "ÖPNV",
+            "MEP"
+        ]
+    },
+    {
+        "these": {
+            "id": "verkehr-03",
+            "category": "Verkehr & Mobilität",
+            "these": "Neue Radwege sollen Vorrang vor dem Erhalt von Parkplätzen haben."
+        },
+        "opposing": "Kritik an Vorrang von neuen Radwegen gegenüber dem Erhalt von Parkplätzen",
+        "topics": [
+            "Verkehrsplanung",
+            "Radverkehr",
+            "Stadtentwicklung",
+            "Flächennutzung",
+            "Parkraumbewirtschaftung",
+            "Klimaschutz",
+            "Umweltschutz",
+            "Nachhaltige Mobilität",
+            "Innenstadtkonzept"
+        ],
+        "measures": [
+            "Neubau von Velorouten",
+            "Umwidmung von Parkflächen zu Fahrradstreifen",
+            "Vorrangregelung für Radwege bei Genehmigungen",
+            "Reduzierung/Abschaffung von Parkplatzflächen",
+            "Einrichtung von Fahrrad‑Prioritätszonen",
+            "Verkehrsberuhigung zugunsten des Radverkehrs",
+            "Flächenrecycling von Stellplätzen für Grün‑/Fahrradinfrastruktur",
+            "Planungs‑ und Bauleitplan‑Anpassungen mit Fahrrad‑Priorität"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Innenstadt und Quartiere (z. B. Bohlweg‑Magniviertel)",
+            "BOMA+ Wettbewerbsverfahren",
+            "Kommunale Wärmeplanung (indirekter Zusammenhang via Reduktion von MIV)",
+            "MIV‑Reduktion",
+            "Öffentlicher Raum und Aufenthaltsqualität",
+            "Klimaneutrale Stadtziele 2045"
+        ],
+        "goals": [
+            "Steigerung des Radverkehrsanteils",
+            "Reduktion von CO₂‑Emissionen",
+            "Verbesserung der Luft‑ und Lärmbelastung",
+            "Erhöhung der Verkehrssicherheit für Radfahrer",
+            "Förderung von umweltfreundlicher Mobilität",
+            "Steigerung der Aufenthaltsqualität im Stadtzentrum",
+            "Entlastung des Straßenraums von Pkw",
+            "Erreichen von Klimaneutralitätszielen"
+        ],
+        "implications": [
+            "Weniger Autonutzung und MIV",
+            "Stärkerer Fokus auf multimodale Verkehrskonzepte",
+            "Erhöhte Nachfrage nach Car‑Sharing/ÖPNV",
+            "Widerstand von Parkplatz‑Interessengruppen",
+            "Notwendigkeit von Parkraumbewirtschaftungs‑ und Ersatz‑Parkkonzepten",
+            "Verstärkte Integration von Rad‑ und Fußverkehr in Stadtplanung",
+            "Umgestaltung des öffentlichen Raums hin zu Grün‑ und Freiraum",
+            "Rechtliche Anpassungen im Bau‑ und Planungsrecht"
+        ],
+        "terms": [
+            "Velorouten",
+            "MIV",
+            "BOMA+",
+            "KWP"
+        ]
+    },
+    {
+        "these": {
+            "id": "verkehr-04",
+            "category": "Verkehr & Mobilität",
+            "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden."
+        },
+        "opposing": "Kostenloser Nahverkehr Kritiken Kosten, Finanzierungsprobleme, Belastung Steuerzahler, negative Auswirkungen auf Servicequalität, notwendige Gegenfinanzierung, Beispiele gescheiterter Gratis‑Verkehrsmodelle, Wirtschaftlichkeitsanalysen öffentlicher Nahverkehr",
+        "topics": [
+            "Öffentlicher Personennahverkehr",
+            "Verkehrspolitik",
+            "Sozialpolitik",
+            "Klimaschutz",
+            "Stadtentwicklung",
+            "Nachhaltige Mobilität",
+            "Finanzpolitik"
+        ],
+        "measures": [
+            "Kostenfreier Nahverkehr für alle",
+            "Abschaffung von Fahrgeldern im ÖPNV",
+            "Einführung eines allgemeinen Gratis-Tickets",
+            "Erhöhung kommunaler Subventionen für BSVG/VRB",
+            "Finanzierung über Kommunalsteuern oder Landesmittel",
+            "Einrichtung eines ÖPNV-Finanzfonds",
+            "Integration von Gratis‑Ticket in Bürger*innenausweise"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Verkehrsverbund Region Braunschweig (VRB)",
+            "Betreiber BSVG/BSVAG",
+            "Schienenpersonennahverkehr (SPNV)",
+            "Niedersachsen",
+            "Bundesweiter ÖPNV‑Diskurs",
+            "EU‑Klimaziele"
+        ],
+        "goals": [
+            "Steigerung der ÖPNV‑Nutzung",
+            "Reduktion von CO₂‑Emissionen im Stadtverkehr",
+            "Entlastung von privaten Autofahrern",
+            "Soziale Mobilitätsgerechtigkeit",
+            "Verbesserung der Luftqualität",
+            "Förderung des innerstädtischen Einzelhandels",
+            "Unterstützung von Beschäftigten mit geringem Einkommen"
+        ],
+        "implications": [
+            "Erhöhter Finanzierungsbedarf für BSVG",
+            "Umverteilung von Steueraufkommen",
+            "Mögliche Erhöhung von Grund- oder Gewerbesteuern",
+            "Notwendigkeit staatlicher Zuschüsse",
+            "Vertragliche Anpassungen im Verkehrsverbund",
+            "Potenzielle Kostenreduktion im Autoverkehr",
+            "Stärkung der Verkehrsgerechtigkeit"
+        ],
+        "terms": [
+            "BSVG",
+            "SPNV",
+            "ÖPNV"
+        ]
+    },
+    {
+        "these": {
+            "id": "klima-01",
+            "category": "Klima & Umwelt",
+            "these": "Braunschweig soll die Klimaneutralität mit höchster Priorität so schnell wie möglich erreichen."
+        },
+        "opposing": "Braunschweig Klimaneutralität Kritik Kosten Aufwand Realisierbarkeit Zweifel",
+        "topics": [
+            "Klimaschutz",
+            "Nachhaltigkeit",
+            "Energieversorgung",
+            "Stadtentwicklung",
+            "Verkehr",
+            "Erneuerbare Energien",
+            "CO₂‑Reduktion",
+            "Klimaneutralität"
+        ],
+        "measures": [
+            "Umsetzung des Integrierten Klimaschutzkonzepts (IKSK2.0)",
+            "Ausbau der Kommunalen Wärmeplanung (KWP) bis 2045",
+            "Förderung von Photovoltaik‑Anlagen auf öffentlichen und privaten Dächern",
+            "Ausbau von Velorouten und sicherer Fahrrad‑Infrastruktur",
+            "Reduktion des motorisierten Individualverkehrs (MIV) durch City‑Maut oder Verkehrssteuerungen",
+            "Stärkung und Ausbau des Schienenpersonennahverkehrs (SPNV)",
+            "Einrichtung von Public‑Private Partnerships (PPP) für klimafreundliche Infrastruktur",
+            "Schaffung von Pocket‑Parks zur Aufwertung dicht besiedelter Quartiere",
+            "Durchführung des BOMA+ Wettbewerbs für Grün‑ und Aufenthaltsqualität",
+            "Investition in das Nachhaltigkeitszentrum (NHZ) als Innovations‑ und Netzwerkplattform",
+            "Koordination mit Braunschweiger Versorgungs‑AG (BS|Energy) für klimaneutrale Stromversorgung"
+        ],
+        "contexts": [
+            "Stadtrat und Verwaltung der Stadt Braunschweig",
+            "Region Braunschweig‑Landkreis",
+            "Bundesklimaschutzgesetz und nationale Klimaziele",
+            "EU‑Klimaziele für 2030/2050",
+            "Lokale Emissionsbilanz und CO₂‑Inventar",
+            "Bürgerschaftliche Beteiligung und Stadtteil‑prozesse",
+            "Wirtschaftsförderung und Standortpolitik Braunschweig",
+            "Wohnungsbau in hochverdichteten Quartieren"
+        ],
+        "goals": [
+            "Erreichung von Treibhausgasneutralität in kürzestmöglicher Zeit (z. B. bis 2030)",
+            "Jährliche CO₂‑Reduktion um mindestens 5 % gegenüber Basisjahr",
+            "Steigerung des Anteils erneuerbarer Energien am Strommix auf 80 % und mehr",
+            "Verbesserung der Luftqualität im Stadtgebiet",
+            "Erhöhung der Energieeffizienz von Bestandsgebäuden",
+            "Förderung nachhaltiger Mobilität und Verringerung des MIV‑Verkehrsanteils",
+            "Schaffung von Arbeitsplätzen im Bereich Green‑Tech und Klimaschutz",
+            "Steigerung der Lebensqualität durch mehr Grün‑ und Aufenthaltsräume"
+        ],
+        "implications": [
+            "Strukturwandel in Energie‑ und Verkehrssektor",
+            "Erhöhte Investitionsbedarfe für Klimainfrastruktur",
+            "Intensive Zusammenarbeit von öffentlicher Hand und Privatwirtschaft (ÖPP)",
+            "Soziale Gerechtigkeit bei energetischer Sanierung von Wohngebäuden",
+            "Stärkung von Forschung, Innovation und Bildung im Klimabereich",
+            "Abhängigkeit von Förderprogrammen auf Bundes‑ und EU‑Ebene",
+            "Flächenkonkurrenz zwischen Photovoltaik‑Projekten und Wohn‑/Freiflächen",
+            "Erhöhte Resilienz der Stadt gegenüber Klimafolgen und Extremwetter"
+        ],
+        "terms": [
+            "IKSK",
+            "KWP",
+            "PV",
+            "Velorouten",
+            "BOMA+",
+            "PPP",
+            "NHZ",
+            "Pocket-Parks",
+            "SPNV",
+            "MIV",
+            "BS|Energy"
+        ]
+    },
+    {
+        "these": {
+            "id": "klima-02",
+            "category": "Klima & Umwelt",
+            "these": "Klimaschutzmaßnahmen dürfen keine zusätzlichen Kosten oder Verbote für Bürger:innen und Unternehmen bedeuten."
+        },
+        "opposing": "Klimaschutz erfordert zusätzliche Kosten und Verbote für Bürger:innen und Unternehmen",
+        "topics": [
+            "Klimaschutz",
+            "Kostenneutralität",
+            "Verzicht auf Verbote",
+            "Wirtschaftsfreiheit",
+            "Soziale Gerechtigkeit",
+            "Energiepolitik",
+            "Nachhaltige Stadtentwicklung"
+        ],
+        "measures": [
+            "Steuerliche Anreize für klimafreundliche Investitionen",
+            "Zuschüsse für Photovoltaik‑ und Wärmepumpen‑Anlagen",
+            "Förderprogramme statt Auflagen",
+            "Marktbasierte Emissionshandelsmechanismen",
+            "Public‑Private Partnerships für Klimaprojekte",
+            "Freiwillige Selbstverpflichtungen von Unternehmen",
+            "Kosten‑freie Integration in das integrierte Klimaschutzkonzept (IKSK)",
+            "Kosten‑freie Kommunale Wärmeplanung (KWP)",
+            "Ausbau von Velorouten ohne Nutzergebühren",
+            "Umwandlung von Pocket‑Parks mit geringem Finanzaufwand"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Kommunale Ebene",
+            "Bundesweite Klimapolitik",
+            "EU‑Klimaziele",
+            "Privathaushalte",
+            "KMU und Industrie",
+            "Energieversorgungsunternehmen (BS|Energy)",
+            "Wettbewerb Bohlweg‑Magniviertel (BOMA+)",
+            "Nachhaltigkeitszentrum (NHZ)",
+            "Mobilitätsentwicklungsplan 2035+ (MEP)"
+        ],
+        "goals": [
+            "Treibhausemissionsneutralität bis 2030/2045",
+            "Erhalt der Wettbewerbsfähigkeit von Unternehmen",
+            "Akzeptanz der Klimaschutzmaßnahmen in der Bevölkerung",
+            "Sozialverträgliche CO₂‑Reduktion",
+            "Energieunabhängigkeit bei niedrigen Kosten",
+            "Förderung von klimafreundlicher Mobilität"
+        ],
+        "implications": [
+            "Kostenfreie Umsetzung von Klimaschutz",
+            "Verzicht auf neue Verbote und Sanktionen",
+            "Stärkung marktbasierter Lösungen",
+            "Entlastung von Bürger:innen und Unternehmen",
+            "Reduzierung bürokratischer Hürden",
+            "Integration von privaten Investitionen",
+            "Sozialverträgliche Finanzierungsmodelle"
+        ],
+        "terms": [
+            "IKSK",
+            "KWP",
+            "PV",
+            "Velorouten",
+            "Pocket-Parks",
+            "BOMA+",
+            "NHZ",
+            "MEP",
+            "PPP",
+            "BS|Energy"
+        ]
+    },
+    {
+        "these": {
+            "id": "klima-03",
+            "category": "Klima & Umwelt",
+            "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen."
+        },
+        "opposing": "Einschränkungen und Kritik an flächendeckenden Solaranlagen auf kommunalen Dächern und Parkflächen, Kosten, Genehmigungs‑ und Netzintegrationsprobleme, Schattenwurf, Denkmalschutz, Flächennutzungs‑ und Bebauungspläne, Wirtschaftlichkeits‑ und Effizienzbedenken",
+        "topics": [
+            "Erneuerbare Energien",
+            "Klimaschutz",
+            "Energiewende",
+            "Stadtentwicklung",
+            "Nachhaltige Mobilität",
+            "Öffentliche Beschaffung",
+            "Flächennutzungsplanung"
+        ],
+        "measures": [
+            "Installation von Photovoltaik‑Anlagen auf kommunalen Dächern",
+            "Solar‑Carports auf öffentlichen Parkplätzen",
+            "Förderprogramme für kommunale PV‑Projekte",
+            "Ausschreibungen für Solarenergie auf öffentlichen Flächen",
+            "Anpassung der Bauordnung für PV‑Pflicht",
+            "Finanzierung über kommunale Green Bonds",
+            "Netzanschlusspriorität für kommunale Solaranlagen"
+        ],
+        "contexts": [
+            "Städtische Immobilien",
+            "Kommunale Parkplätze",
+            "Braunschweig",
+            "Deutsche Klimaziele 2030",
+            "EU‑Fit‑for‑55",
+            "Kommunaler Klimaschutzplan",
+            "Energieversorgungsnetz der Stadt"
+        ],
+        "goals": [
+            "Erhöhung des Anteils erneuerbarer Stromerzeugung",
+            "Reduktion von CO₂‑Emissionen",
+            "Erreichen der Klimaneutralität bis 2045",
+            "Senken der kommunalen Energiekosten",
+            "Steigerung lokaler Wertschöpfung und Arbeitsplätze",
+            "Erhöhung der Energieautarkie der Stadt"
+        ],
+        "implications": [
+            "Notwendigkeit von Netzkapazitätserweiterungen",
+            "Integration von Stromspeichern",
+            "Kooperation mit privaten Solaranbietern",
+            "Erforderliche Flächen‑ und Genehmigungsplanung",
+            "Potenzielle Konflikte mit anderen Nutzungen",
+            "Förderung von Forschung zu urbaner PV",
+            "Beitrag zur Resilienz der Energieversorgung"
+        ],
+        "terms": [
+            "PV"
+        ]
+    },
+    {
+        "these": {
+            "id": "klima-04",
+            "category": "Klima & Umwelt",
+            "these": "Der Ausbau von Windkraft in Stadt und Region soll beschleunigt werden."
+        },
+        "opposing": "Windkraftausbau in Städten und Regionen beschleunigen Kritik, gesetzliche Beschränkungen, Lärmschutz, Bebauungsplan, Naturschutz, visuelle Beeinträchtigung, Akzeptanz der Bevölkerung, Begrenzungen durch Flächennutzung, Netzintegration",
+        "topics": [
+            "Erneuerbare Energien",
+            "Energiepolitik",
+            "Klimaschutz",
+            "Dekarbonisierung",
+            "Stadt‑ und Regionalentwicklung",
+            "Energiewende"
+        ],
+        "measures": [
+            "Beschleunigte Genehmigungsverfahren für Windanlagen",
+            "Förderprogramme für kommunale Windkraftprojekte",
+            "Schnellere Flächenausweisung für Windenergie",
+            "Öffentlich‑private Partnerschaften (PPP) im Windenergiesektor",
+            "Finanzielle Anreize/Zuschüsse für Betreiber",
+            "Vereinfachte Umweltverträglichkeitsprüfungen",
+            "Ausbau von Netzanschlusskapazitäten",
+            "Integration in das Integrierte Klimaschutzkonzept (IKSK)",
+            "Unterstützung durch das Nachhaltigkeitszentrum (NHZ)",
+            "Bürgerbeteiligungsmodelle für Windkraft"
+        ],
+        "contexts": [
+            "kommunale Ebene",
+            "regionale Energieversorgung",
+            "Stadt Braunschweig und Umland",
+            "Niedersachsen",
+            "EU‑Klimaziele",
+            "deutsche Klimaneutralitätsstrategie bis 2045"
+        ],
+        "goals": [
+            "Reduktion von CO₂‑Emissionen",
+            "Erhöhung des Anteils erneuerbarer Energie",
+            "Erreichung von Klimaneutralität bis 2045",
+            "Sicherstellung der Stromversorgungssicherheit",
+            "Schaffung von Arbeitsplätzen in der grünen Wirtschaft",
+            "Stärkung lokaler Wertschöpfung"
+        ],
+        "implications": [
+            "Ausbau von Stromnetzen und Speicherinfrastruktur",
+            "Dezentrale Energieerzeugung",
+            "Verbesserte Akzeptanz durch frühzeitige Bürgerbeteiligung",
+            "Potentiale Konflikte mit Naturschutz",
+            "Synergien mit kommunaler Wärmeplanung (KWP)",
+            "Beitrag zum Maßnahmenkatalog des IKSK",
+            "Einbindung des Nachhaltigkeitszentrums (NHZ) für Wissenstransfer"
+        ],
+        "terms": [
+            "PV",
+            "KWP",
+            "IKSK",
+            "PPP",
+            "NHZ"
+        ]
+    },
+    {
+        "these": {
+            "id": "wohnen-01",
+            "category": "Wohnen & Bauen",
+            "these": "Der Pflichtanteil (aktuell 30 %) für Sozialwohnungen bei Neubauprojekten soll erhöht werden."
+        },
+        "opposing": "Kritik Pflichtanteil Sozialwohnungen erhöhen Neubauprojekte private Investoren Marktpreise Bedenken Bauwirtschaft Mietpreisentwicklung Nachteile",
+        "topics": [
+            "Sozialer Wohnungsbau",
+            "Wohnungsmarkt",
+            "Stadtentwicklung",
+            "Baupolitik",
+            "Bezahlbarer Wohnraum",
+            "Mietmarktregulierung",
+            "Gemeinwohlorientierte Stadtplanung"
+        ],
+        "measures": [
+            "Erhöhung der gesetzlichen Pflichtquote für Sozialwohnungen",
+            "Einführung einer Mindestquote bei Neubauprojekten",
+            "Verbindliche Vorgabe von Sozialwohnungsanteilen im Bauleitplan",
+            "Anpassung des Baurechts zur Durchsetzung höherer Sozialwohnungsquoten",
+            "Auflage einer Sozialwohnungsquote für ÖPP‑Projekte",
+            "Förderung von Sozialwohnungsanteilen über städtische Förderprogramme"
+        ],
+        "contexts": [
+            "Neubauprojekte in Braunschweig",
+            "Öffentlich‑private Partnerschaften (ÖPP)",
+            "Private Wohnungsunternehmen (z. B. LEG, Vonovia)",
+            "Kommunale Wohnungsbaugesellschaft Nibelungen Wohnbau GmbH",
+            "Zentrale Stelle für Wohnraumhilfe (ZSW) als Ansprechpartner",
+            "Wohnungsmarkt mit steigender Nachfrage und Preisentwicklung"
+        ],
+        "goals": [
+            "Ausbau von bezahlbarem Wohnraum für niedrige und mittlere Einkommen",
+            "Soziale Durchmischung von Stadtquartieren",
+            "Verhinderung von Gentrifizierung",
+            "Reduktion von Wohnungsknappheit",
+            "Stärkung des gemeinwohlorientierten Wohnungsbaus"
+        ],
+        "implications": [
+            "Erhöhter Finanzierungsbedarf für Bauherren",
+            "Mögliche Belastung privater Investoren",
+            "Notwendigkeit zusätzlicher Fördermittel seitens der Stadt",
+            "Anpassung von Bau- und Planungsprozessen",
+            "Stärkere Rolle der kommunalen Wohnungsbaugesellschaften",
+            "Zusammenhang mit Mietpreisbremse und anderen Mietmarktinstrumenten",
+            "Erhöhte Komplexität bei ÖPP‑Verträgen"
+        ],
+        "terms": [
+            "LEG",
+            "NiWo",
+            "Vonovia",
+            "ZSW",
+            "PPP"
+        ]
+    },
+    {
+        "these": {
+            "id": "wohnen-02",
+            "category": "Wohnen & Bauen",
+            "these": "Die Stadt soll Bauland aktiv ankaufen, statt es an den Höchstbietenden zu verkaufen."
+        },
+        "opposing": "Kritik an kommunalem Bauland‑Ankauf, warum Städte Grundstücke nicht kaufen sollten, finanzielle Belastungen, rechtliche Beschränkungen und Marktverzerrungen beim Verzicht auf Verkauf an den Höchstbietenden",
+        "topics": [
+            "Stadtentwicklung",
+            "Bodenpolitik",
+            "Wohnungsbau",
+            "Grundstücksmarkt",
+            "Kommunale Vermögenspolitik",
+            "Flächennutzungsplanung",
+            "Bezahlbarer Wohnraum",
+            "Spekulationsbekämpfung"
+        ],
+        "measures": [
+            "Aktiver Ankauf von Bauland durch die Stadt",
+            "Einrichtung eines kommunalen Bodenfonds",
+            "Verbot von Höchstbietenden‑Verkauf von Bauland",
+            "Nutzung von Grundsteuer‑C‑Einnahmen für Grundstückserwerb",
+            "Kommunale Erwerb von baureifen Grundstücken",
+            "Bodenpacht‑Modell statt Verkauf",
+            "Finanzierung über kommunale Anleihen",
+            "Kooperation mit NiWo für Stadt‑Eigenland"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "steigende Mietpreise",
+            "knapper Wohnungsbestand",
+            "spekulative Grundstückspreise",
+            "Grundsteuer B/C",
+            "Öffentlich‑private Partnerschaft (PPP)",
+            "Zentrale Stelle für Wohnraumhilfe (ZSW)",
+            "BOMA+ Wettbewerbsverfahren",
+            "Pocket‑Park‑Planung"
+        ],
+        "goals": [
+            "Schaffung von sozialem und bezahlbarem Wohnraum",
+            "Steuerung der Stadtentwicklung nach kommunalen Zielen",
+            "Verhinderung von Grundstücksspekulation",
+            "Langfristige Sicherung von Bauland für die Kommune",
+            "Erhöhung der Flächenreserven für zukünftige Bauprojekte",
+            "Nachhaltige und integrierte Stadtgestaltung"
+        ],
+        "implications": [
+            "Ausweitung der kommunalen Grundbesitzbilanz",
+            "Notwendigkeit von zusätzlicher Haushaltsfinanzierung",
+            "Rechtliche Anpassungen im Baugesetz‑ und Bodenrecht",
+            "Stärkere Rolle öffentlicher Hand im Immobilienmarkt",
+            "Möglichkeit von Bodenbeteiligungen bzw. Ertragsanteilen",
+            "Reduzierung von Gentrifizierung",
+            "Integration von Grünflächen (Pocket‑Parks) in Neubaugebieten",
+            "Koordination mit NiWo und anderen kommunalen Wohnungsunternehmen"
+        ],
+        "terms": [
+            "Grundsteuer B",
+            "Grundsteuer C",
+            "PPP",
+            "NiWo",
+            "LEG",
+            "Vonovia",
+            "BOMA+",
+            "Pocket-Parks",
+            "ZSW"
+        ]
+    },
+    {
+        "these": {
+            "id": "wohnen-03",
+            "category": "Wohnen & Bauen",
+            "these": "Große Wohnungskonzerne wie die Vonovia SE sollen vergesellschaftet werden können."
+        },
+        "opposing": "kritische Stellungnahmen zur Verstaatlichung großer Wohnungskonzerne wie Vonovia, Bedenken gegen Sozialisation von Mietwohnungsunternehmen, Argumente für private Eigentumsrechte und Markteffizienz",
+        "topics": [
+            "Wohnungswesen",
+            "Sozialer Wohnungsbau",
+            "Mieterschutz",
+            "Immobiliensektor",
+            "Öffentliche Eigentumsfragen",
+            "Stadtentwicklung"
+        ],
+        "measures": [
+            "Verstaatlichung von Wohnungskonzernen",
+            "Übertragung von Unternehmensanteilen an Kommunen",
+            "Einrichtung von öffentlichen Wohnungsfonds",
+            "Umwandlung in gemeinnützige Wohnungsunternehmen",
+            "Bürgerbeteiligung an Wohnungsaktien"
+        ],
+        "contexts": [
+            "Deutschland",
+            "Niedersachsen",
+            "Stadt Braunschweig",
+            "Mietpreiskrise",
+            "Wohnungsnot",
+            "Kapitalmarktorientierte Immobilienunternehmen",
+            "Privatisierte Wohnungsbestände"
+        ],
+        "goals": [
+            "Bezahlbarer Wohnraum",
+            "Entlastung von Mietern",
+            "Demokratisierung des Wohnungsmarktes",
+            "Reduktion von Spekulation",
+            "Langfristige Wohnungsversorgung",
+            "Sozialer Ausgleich"
+        ],
+        "implications": [
+            "Erhöhung der öffentlichen Eigentumsquote",
+            "Finanzielle Belastung für Kommunen",
+            "Umstrukturierung börsennotierter Wohnungsunternehmen",
+            "Stärkung von Mieterschutzgesetzen",
+            "Förderung von Wohnungsgenossenschaften",
+            "Politische Debatte über Vermögensverteilung"
+        ],
+        "terms": [
+            "Vonovia",
+            "LEG",
+            "NiWo",
+            "ZSW"
+        ]
+    },
+    {
+        "these": {
+            "id": "wohnen-04",
+            "category": "Wohnen & Bauen",
+            "these": "Neubau soll vorrangig auf bereits versiegelten Flächen stattfinden."
+        },
+        "opposing": "Kritik Neubau ausschließlich auf bereits versiegelten Flächen, Gegenargumente für Bau auf unversiegelten bzw. Grünflächen, Diskussion über Flächenknappheit und Notwendigkeit von Neubau außerhalb versiegelter Gebiete",
+        "topics": [
+            "Stadtentwicklung",
+            "Flächennutzung",
+            "Wohnungsbau",
+            "Nachhaltige Stadtplanung",
+            "Flächenrecycling",
+            "Verdichtung",
+            "Brachflächenentwicklung",
+            "Klimaschutz in der Baupolitik"
+        ],
+        "measures": [
+            "Vorrang für Neubau auf versiegelten Bestandsflächen",
+            "Förderung von Baulücken- und Brachflächenprojekten",
+            "Anpassung des Bebauungsplans zugunsten von Brownfield‑Nutzungen",
+            "Einführung von Flächenrecycling‑Quoten im Flächennutzungsplan",
+            "Finanzielle Anreize (z. B. Förderprogramme, Steuererleichterungen) für Bau auf bereits versiegelten Flächen",
+            "Verpflichtende Flächenumwidmung von Neubau‑Gebieten zu Grünflächen (Pocket‑Parks)",
+            "Öffentlich‑private Partnerschaften (PPP) für die Aufbereitung von Altstandorten"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "BOMA+‑Wettbewerb im Bohlweg‑Magniviertel",
+            "Wohnraummangel in innerstädtischen Quartieren",
+            "Klimaneutralität bis 2030 (IKSK)",
+            "Kommunale Wärmeplanung (KWP)",
+            "Grundsteuer B/C – Anreiz­system für Baureife‑Grundstücke"
+        ],
+        "goals": [
+            "Reduktion des Flächenverbrauchs",
+            "Schutz von Grün‑ und Naturräumen",
+            "Erhöhung der innerstadtnahen Wohnungsversorgung",
+            "Steigerung der Aufenthaltsqualität durch geringere Versiegelung",
+            "Förderung nachhaltiger Mobilität (Rad‑ und Fußverkehr)",
+            "Klimaschutz durch geringere CO₂‑Emissionen im Bausektor"
+        ],
+        "implications": [
+            "Verringerung von Neubau auf Grünflächen",
+            "Entlastung von Verkehrs- und Infrastrukturkosten",
+            "Stärkere soziale Durchmischung in Stadtzentren",
+            "Erhöhte Nutzung von bestehenden Infrastrukturen",
+            "Langfristige Kosteneinsparungen bei Grundsteuer B/C durch kompakte Bauweise",
+            "Integration von Pocket‑Parks zur Aufwertung dicht besiedelter Quartiere"
+        ],
+        "terms": [
+            "BOMA+",
+            "Grundsteuer B",
+            "Grundsteuer C",
+            "IKSK",
+            "KWP",
+            "LEG",
+            "NiWo",
+            "Pocket-Parks",
+            "PPP",
+            "Vonovia",
+            "ZSW"
+        ]
+    },
+    {
+        "these": {
+            "id": "sicherheit-01",
+            "category": "Sicherheit & Ordnung",
+            "these": "Die Videoüberwachung im öffentlichen Raum soll ausgeweitet werden."
+        },
+        "opposing": "Kritik an Ausweitung der Videoüberwachung im öffentlichen Raum, Datenschutzbedenken, Grundrechtseinschränkungen, Wirksamkeit von Überwachungskameras, Alternativen zur flächendeckenden Videoüberwachung, gesetzliche Beschränkungen und Bürgerrechte",
+        "topics": [
+            "Öffentliche Sicherheit",
+            "Kriminalitätsprävention",
+            "Datenschutz",
+            "Bürgerrechte",
+            "Videoüberwachung",
+            "Öffentlicher Raum",
+            "Städtische Infrastruktur",
+            "Technologieeinsatz"
+        ],
+        "measures": [
+            "Ausbau von CCTV‑Kameras",
+            "Installation zusätzlicher Kameras an öffentlichen Plätzen",
+            "Flächendeckende Videoüberwachung",
+            "Zentrale Leitstelle für Bildauswertung",
+            "Einbindung in den Zentralen Ordnungsdienst (ZOD)",
+            "Öffentlich‑private Partnerschaft (PPP) für Technikbeschaffung",
+            "Echtzeitüberwachung",
+            "Langzeit‑Speicherung von Bildmaterial",
+            "Automatisierte Gesichtserkennung",
+            "Verkehrs‑ und Platzüberwachung"
+        ],
+        "contexts": [
+            "Innenstadt von Braunschweig",
+            "Öffentliche Plätze und Fußgängerzonen",
+            "Bahnhöfe und Verkehrsknotenpunkte",
+            "Veranstaltungen und Großereignisse",
+            "Gefährdungslage (Terrorismus, Gewalt)",
+            "Demonstrationen und Kundgebungen",
+            "Hohe Kriminalitätsraten in bestimmten Quartieren"
+        ],
+        "goals": [
+            "Verbrechensbekämpfung",
+            "Abschreckung potenzieller Täter",
+            "Schnelles Eingreifen bei Vorfällen",
+            "Aufklärung von Straftaten",
+            "Erhöhung des Sicherheitsgefühls der Bürger",
+            "Schutz von Personen und Eigentum",
+            "Unterstützung der Ermittlungsarbeit"
+        ],
+        "implications": [
+            "Einschränkung des Rechts auf informationelle Selbstbestimmung",
+            "Datenschutzrechtliche Vorgaben (BDSG, DSGVO)",
+            "Notwendigkeit von Rechtsgrundlagen und Genehmigungen",
+            "Kosten- und Finanzierungsfragen (öffentliche Mittel, PPP)",
+            "Kontrolle durch Aufsichtsbehörden",
+            "Transparenzpflichten gegenüber der Bevölkerung",
+            "Speicherfristen für Bildmaterial",
+            "Risiko einer Überwachungsgesellschaft",
+            "Bürgerbeteiligung und Öffentlichkeitsdialog"
+        ],
+        "terms": [
+            "ZOD",
+            "PPP"
+        ]
+    },
+    {
+        "these": {
+            "id": "sicherheit-02",
+            "category": "Sicherheit & Ordnung",
+            "these": "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen."
+        },
+        "opposing": "Kritik an der Ausweitung von Befugnissen des Zentralen Ordnungsdienstes (ZOD) – unmittelbarer Zwang, Grundrechtsbedenken, oppositionelle Stellungnahmen",
+        "topics": [
+            "öffentliche Ordnung",
+            "Sicherheit",
+            "kommunale Verwaltung",
+            "Ordnungsrecht",
+            "Befugnisse des Ordnungsamtes",
+            "Stadtentwicklung",
+            "Nachtleben",
+            "Demonstrationsrecht"
+        ],
+        "measures": [
+            "Erweiterung der ZOD‑Befugnisse",
+            "Einführung von unmittelbarem Zwang",
+            "Recht auf Platzverweis",
+            "Befugnis zur Personen‑ und Platzkontrolle",
+            "Bußgeldbefugnis für ZOD",
+            "Durchsetzung von Ordnungsgeldern",
+            "Zwangsmaßnahmen bei Ordnungswidrigkeiten",
+            "Ausweitung des Vollzugsrechts"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "Stadtzentrum",
+            "öffentliche Plätze",
+            "Straßen‑ und Platzverkehr",
+            "Veranstaltungen",
+            "Nachtleben",
+            "Demonstrationen",
+            "kommunale Sicherheitslage"
+        ],
+        "goals": [
+            "Erhöhung der öffentlichen Sicherheit",
+            "Verbesserung der Ordnung im öffentlichen Raum",
+            "Schutz von Anwohnern",
+            "Prävention von Rechtsverstößen",
+            "Reduzierung von Lärm und Vandalismus",
+            "Steigerung der Lebensqualität",
+            "Effiziente Durchsetzung von Satzungen"
+        ],
+        "implications": [
+            "Grundrechtliche Bedenken",
+            "Gefahr von Machtmissbrauch",
+            "Notwendigkeit von Aufsicht und Kontrolle",
+            "Zusammenarbeit mit Polizei",
+            "Kosten für Ausbildung und Ausstattung",
+            "Transparenz‑ und Berichtspflichten",
+            "Debatte über kommunale Polizeiaufgaben",
+            "Rechtsstaatliche Kontrolle"
+        ],
+        "terms": [
+            "ZOD"
+        ]
+    },
+    {
+        "these": {
+            "id": "sicherheit-03",
+            "category": "Sicherheit & Ordnung",
+            "these": "Bei Kriminalität soll konsequentes Durchgreifen Vorrang vor Präventionsangeboten haben."
+        },
+        "opposing": "Kritik an konsequentem Durchgreifen bei Kriminalität, Argumente für Prävention statt Strafmaßnahmen, Wirksamkeit von Präventionsprogrammen gegenüber repressiven Maßnahmen, Gegenpositionen zur Priorität von Durchgreifen",
+        "topics": [
+            "Sicherheit",
+            "Kriminalitätsbekämpfung",
+            "Recht und Ordnung",
+            "Polizeiarbeit",
+            "Strafrechtliche Härte",
+            "Öffentliche Ordnung"
+        ],
+        "measures": [
+            "Ausbau des Zentralen Ordnungsdienstes (ZOD)",
+            "Erhöhung von Polizeikontrollen und Präsenz",
+            "Verlängerung von Untersuchungshaft",
+            "Strengere Strafzumessung",
+            "Einführung von Schnellverfahren für Kleinstraftaten",
+            "Erweiterung der Durchsuchungsbefugnisse",
+            "Reduzierung von Präventionsbudgets",
+            "Schließung bzw. Einschränkung von Präventionsangeboten"
+        ],
+        "contexts": [
+            "Städtische Sicherheitsstrategie (z. B. Braunschweig)",
+            "Straßenkriminalität",
+            "Jugendkriminalität",
+            "Öffentliche Plätze und Verkehrsknotenpunkte",
+            "Ordnungsamt und kommunale Sicherheitsbehörden"
+        ],
+        "goals": [
+            "Senkung der Kriminalitätsrate",
+            "Abschreckung von potenziellen Tätern",
+            "Steigerung des Sicherheitsgefühls der Bevölkerung",
+            "Wiederherstellung von öffentlicher Ordnung"
+        ],
+        "implications": [
+            "Verlagerung von Ressourcen von Prävention zu Durchgriff",
+            "Weniger Unterstützung für Wiedereingliederungsprogramme (z. B. CURA)",
+            "Mögliche Benachteiligung von Opfern sozialer Randlagen",
+            "Stärkung von Ordnungsbehörden wie ZOD",
+            "Kritik von Menschenrechts- und Sozialverbänden",
+            "Gefahr der Stigmatisierung von Risikogruppen"
+        ],
+        "terms": [
+            "ZOD",
+            "CURA",
+            "ASUNA",
+            "B58"
+        ]
+    },
+    {
+        "these": {
+            "id": "sicherheit-04",
+            "category": "Sicherheit & Ordnung",
+            "these": "In der Innenstadt sollen weitere Waffenverbotszonen eingerichtet werden."
+        },
+        "opposing": "Kritik an weiteren Waffenverbotszonen in Innenstädten Selbstverteidigungsrecht Bedenken gegen Waffenkontrolle im Stadtzentrum",
+        "topics": [
+            "Öffentliche Sicherheit",
+            "Waffenregulierung",
+            "Stadtentwicklung",
+            "Innenstadtschutz",
+            "Ordnungswesen",
+            "Gewaltprävention"
+        ],
+        "measures": [
+            "Einrichtung von Waffenverbotszonen",
+            "Ausweisung von Sperrgebieten für Schusswaffen",
+            "Beschilderung der Verbotszonen",
+            "Erweiterung des Zentralen Ordnungsdienstes (ZOD) in betroffenen Bereichen",
+            "Durchsetzung mit Bußgeldern und Strafen",
+            "Erhöhung der Polizeipräsenz in der Innenstadt",
+            "Kontrollen durch das Ordnungsamt"
+        ],
+        "contexts": [
+            "Innenstadt Braunschweig",
+            "Fußgängerzone",
+            "Einzelhandels- und Gastronomiebereich",
+            "Touristische Attraktionen",
+            "Veranstaltungen und Großereignisse",
+            "Kommunalpolitische Diskussion"
+        ],
+        "goals": [
+            "Steigerung der öffentlichen Sicherheit",
+            "Reduktion von Waffengewalt",
+            "Schutz von Besucher*innen und Anwohner*innen",
+            "Verbesserung des Images der Innenstadt",
+            "Erhöhung der Lebensqualität im Stadtzentrum",
+            "Prävention von Anschlägen und Straftaten mit Schusswaffen"
+        ],
+        "implications": [
+            "Einschränkung von Grundrechten im Waffenbereich",
+            "Notwendigkeit rechtlicher Grundlagen (Waffenverbotsverordnung)",
+            "Kosten für Überwachung und Durchsetzung",
+            "Zusammenarbeit zwischen Polizei, Ordnungsamt und ZOD",
+            "Mögliche Kontroversen mit Waffenbefürwortern und Schießsportverbänden",
+            "Einfluss auf Tourismus und Einzelhandel",
+            "Vorbildfunktion für andere Kommunen"
+        ],
+        "terms": [
+            "ZOD"
+        ]
+    },
+    {
+        "these": {
+            "id": "sicherheit-05",
+            "category": "Sicherheit & Ordnung",
+            "these": "Die Stadt soll den Katastrophen- und Bevölkerungsschutz ausbauen und dafür Feuerwehr, Hilfsorganisationen und Warnsysteme besser ausstatten."
+        },
+        "opposing": "Kritik an Ausbau von Katastrophen- und Bevölkerungsschutz Kosten Effektivität Datenschutz von Warnsystemen Gegenargumente gegen stärkere Ausstattung von Feuerwehr und Hilfsorganisationen",
+        "topics": [
+            "Katastrophen‑ und Bevölkerungsschutz",
+            "Kommunale Resilienz",
+            "Öffentliche Sicherheit",
+            "Notfall‑ und Krisenmanagement",
+            "Warn‑ und Alarmierungssysteme",
+            "Feuerwehr"
+        ],
+        "measures": [
+            "Erweiterung der Feuerwehrausstattung (Löschfahrzeuge, Schutzkleidung, Atemschutz)",
+            "Aufstockung von Feuerwehrpersonal und ehrenamtlichen Kräften",
+            "Modernisierung von Einsatzleitzentralen und Kommunikationsnetz (digitale Funknetze)",
+            "Anschaffung von Spezialgeräten für THW‑Einsätze (Hubrettungsgeräte, Tragen)",
+            "Kooperationsverträge mit Hilfsorganisationen (DRK, Malteser, Johanniter, ASB, AWO)",
+            "Finanzielle Förderung von THW‑Standorten in der Stadt",
+            "Installation und Ausbau von Warnsystemen (Sirenen, Handy‑Alarm‑Apps, Katastrophenwarnringe)",
+            "Einrichtung von Gefahren‑ und Evakuierungsplänen auf Quartier‑Ebene",
+            "Regelmäßige Katastrophenschutzübungen für Feuerwehr, THW und Hilfsorganisationen",
+            "Schaffung von Notfalllagern und Logistikzentren in Stadtteilen"
+        ],
+        "contexts": [
+            "Städtische Verwaltung (Kommunalpolitik)",
+            "Bevölkerung von Braunschweig und Umgebung",
+            "Regionale Katastrophenrisiken (Hochwasser, Stürme, Industrieunfälle)",
+            "Bundesprogramm Katastrophen‑ und Bevölkerungsschutz",
+            "EU‑Richtlinien zum Zivilschutz"
+        ],
+        "goals": [
+            "Erhöhung des Schutzes von Leben und Gesundheit",
+            "Minimierung von Schadenshöhen bei Katastrophen",
+            "Schnellere Einsatzbereitschaft und Reaktionszeit",
+            "Stärkung der kommunalen Resilienz",
+            "Verbesserte Alarmierung und Information der Bevölkerung",
+            "Nachhaltige Finanzierung des Katastrophen‑ und Bevölkerungsschutzes"
+        ],
+        "implications": [
+            "Intensivierung der Zusammenarbeit zwischen Stadt, Feuerwehr, THW und zivilgesellschaftlichen Hilfsorganisationen",
+            "Notwendigkeit von Haushaltsmittelzuweisungen und Förderprogrammen",
+            "Einbindung von Ehrenamtlichen und Ausbau des freiwilligen Engagements",
+            "Integration von Katastrophenschutz in Stadtentwicklungs‑ und Bauplanung",
+            "Erforderliche Rechtsgrundlagen (Zivilschutzgesetz, Katastrophenhilfegesetz)",
+            "Erhöhte öffentliche Aufmerksamkeit und Aufklärung zum Thema Notfallvorsorge",
+            "Digitalisierung der Warn‑ und Kommunikationsinfrastruktur"
+        ],
+        "terms": [
+            "THW",
+            "DRK",
+            "Malteser",
+            "Johanniter",
+            "ASB",
+            "AWO"
+        ]
+    },
+    {
+        "these": {
+            "id": "gesundheit-01",
+            "category": "Gesundheit & Soziales",
+            "these": "Das Städtische Klinikum darf nicht privatisiert werden."
+        },
+        "opposing": "Privatisierung von städtischen Kliniken Vorteile und rechtliche Grundlagen, Argumente für die Übertragung öffentlicher Krankenhäuser in Privateigentum, Beispiele für erfolgreiche Privatisierung von kommunalen Krankenhäusern",
+        "topics": [
+            "Gesundheitspolitik",
+            "Öffentliche Krankenhäuser",
+            "Privatisierung von Gesundheitseinrichtungen",
+            "Kommunaler Eigentumsschutz",
+            "Sozialstaatliche Daseinsvorsorge",
+            "Krankenhausfinanzierung"
+        ],
+        "measures": [
+            "Verbot der Veräußerung kommunaler Kliniken",
+            "Rechtsbindung des SKBS an kommunales Eigentum",
+            "Einführung eines Gesetzes zum Schutz öffentlicher Krankenhäuser",
+            "Absicherung der Finanzierung durch kommunale Haushalte",
+            "Ablehnung von Public‑Private‑Partnerships im Klinikbereich"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Niedersachsen",
+            "Kommunalpolitische Entscheidungen",
+            "Bundesweite Krankenhausreform",
+            "Demografischer Wandel und Versorgungsbedarf",
+            "Finanzdruck auf kommunale Krankenhäuser"
+        ],
+        "goals": [
+            "Sicherstellung einer flächendeckenden, gemeinwohlorientierten Gesundheitsversorgung",
+            "Erhalt der Versorgungsqualität im SKBS",
+            "Vermeidung von Profitorientierung im Gesundheitswesen",
+            "Arbeitsplatzsicherheit für Klinikpersonal",
+            "Wahrung des öffentlichen Gemeinwohls"
+        ],
+        "implications": [
+            "Stärkung der öffentlichen Daseinsvorsorge",
+            "Ablehnung von Marktliberalisierung im Gesundheitssektor",
+            "Förderung solidarischer Finanzierung statt privater Gewinnmaximierung",
+            "Langfristiger Erhalt kommunaler Eigentumsrechte",
+            "Positionierung gegen Krankenhausprivatisierung und PPP-Modelle"
+        ],
+        "terms": [
+            "SKBS"
+        ]
+    },
+    {
+        "these": {
+            "id": "gesundheit-02",
+            "category": "Gesundheit & Soziales",
+            "these": "Die medizinische Versorgung und die Arbeitsbedingungen am Städtischen Klinikum sollen trotz des finanziellen Defizits gesichert werden."
+        },
+        "opposing": "Kritik an der Sicherung der medizinischen Versorgung und Arbeitsbedingungen im Städtischen Klinikum trotz erheblichem Defizit, Argumente für notwendige Kürzungen, Einsparungen, Personalabbau oder Privatisierungsdruck im Kontext von Finanzierungsproblemen",
+        "topics": [
+            "Gesundheitsversorgung",
+            "Krankenhausfinanzierung",
+            "Arbeitsbedingungen im Gesundheitswesen",
+            "Öffentliche Krankenhäuser",
+            "Finanzdefizit",
+            "Städtisches Klinikum Braunschweig",
+            "Niedersachsen‑Gesundheitssystem"
+        ],
+        "measures": [
+            "Sicherstellung der medizinischen Grundversorgung",
+            "Erhalt von Krankenhauspersonal",
+            "Tarifgebundene Lohn- und Arbeitszeitregelungen",
+            "Kommunale Subventionen für das SKBS",
+            "Einrichtung eines Defizit‑Ausgleichsfonds",
+            "Kosten‑ und Qualitätsmanagement im Hospital",
+            "Investitionen in Personal und Technik",
+            "Verhinderung von Personalabbau",
+            "Stärkung des Pflegepersonal‑Bestandes",
+            "Öffentliche Zuschüsse zur Betriebssicherung"
+        ],
+        "contexts": [
+            "Städtisches Klinikum Braunschweig (SKBS)",
+            "Finanzielle Lage kommunaler Krankenhäuser",
+            "Gesundheitspolitik der Stadt Braunschweig",
+            "Bundes- und Landesförderprogramme für Krankenhäuser",
+            "Pandemie‑Nachwirkungen und steigender Versorgungsbedarf",
+            "Öffentlicher Sektor und Sozialversicherung"
+        ],
+        "goals": [
+            "Garantierte medizinische Versorgung für Braunschweiger Bevölkerung",
+            "Sicherung von Fach‑ und Pflegekräften",
+            "Aufrechterhaltung der Versorgungsqualität",
+            "Finanzielle Tragfähigkeit des Klinikbetriebs",
+            "Vermeidung von Klinikschließungen oder Privatisierung",
+            "Soziale Gerechtigkeit im Gesundheitssektor"
+        ],
+        "implications": [
+            "Erhöhte kommunale Finanzbelastung",
+            "Mögliche Steuererhöhungen oder Umlagefinanzierung",
+            "Langfristige Strukturreformen im Krankenhauswesen",
+            "Stärkere staatliche Verantwortung für Versorgungssicherheit",
+            "Ausbau von Präventions‑ und ambulanten Angeboten zur Entlastung",
+            "Kooperation mit anderen regionalen Gesundheitsträgern"
+        ],
+        "terms": [
+            "SKBS"
+        ]
+    },
+    {
+        "these": {
+            "id": "gesundheit-03",
+            "category": "Gesundheit & Soziales",
+            "these": "Die Zahl der Frauenhausplätze und Beratungsstellen soll ausgebaut werden."
+        },
+        "opposing": "Kritik und Gegenargumente zum Ausbau von Frauenhausplätzen und Beratungsstellen, finanzielle Belastungen, Zweifel an Notwendigkeit oder Wirksamkeit, Aussagen von Politikern oder Verbänden, die den Ausbau von Frauenhäusern einschränken oder ablehnen",
+        "topics": [
+            "Gewalt gegen Frauen",
+            "Schutz von FLINTA*",
+            "Häusliche Gewalt",
+            "Gendergerechtigkeit",
+            "Soziale Infrastruktur",
+            "Wohnungsmarkt für Gewaltopfer",
+            "Frauenhaus‑Netzwerk"
+        ],
+        "measures": [
+            "Ausbau von Frauenhausplätzen",
+            "Erweiterung von Beratungsstellen für Gewaltopfer",
+            "Erhöhung der Fördermittel für Frauenhäuser",
+            "Schaffung neuer Notunterkünfte für Frauen und FLINTA*",
+            "Finanzierung von Beratungsangeboten",
+            "Kooperation mit VSE und ZSW",
+            "Einrichtung von Kriseninterventionsteams"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Kommunale Wohnraumhilfe",
+            "Fachstelle für Gewaltopfer",
+            "Lokale NGOs (VSE, ASUNA)",
+            "Gesetzliche Rahmenbedingungen (Gewaltschutzgesetz)",
+            "Stadtentwicklung und Wohnungsmarkt"
+        ],
+        "goals": [
+            "Besserer Schutz für Frauen und FLINTA*",
+            "Erhöhung der Kapazitäten für Schutzunterkünfte",
+            "Verbesserung der Beratungsunterstützung",
+            "Reduktion von Gewaltkriminalität",
+            "Stärkung der Selbstbestimmung von Betroffenen",
+            "Langfristige Prävention von Gewalt"
+        ],
+        "implications": [
+            "Notwendigkeit zusätzlicher Haushaltsmittel",
+            "Engere Zusammenarbeit mit NGOs (VSE, ASUNA)",
+            "Integration von Wohnraumhilfe (ZSW) in das Schutzkonzept",
+            "Politische Priorisierung von Gender‑Sicherheit",
+            "Ausbau von qualifiziertem Personal",
+            "Anpassungen im Rechtsrahmen"
+        ],
+        "terms": [
+            "FLINTA",
+            "ASUNA",
+            "VSE",
+            "ZSW"
+        ]
+    },
+    {
+        "these": {
+            "id": "gesundheit-04",
+            "category": "Gesundheit & Soziales",
+            "these": "Es soll eine eigene kommunale Anlaufstelle für queere Gesundheits- und Beratungsangebote eingerichtet werden."
+        },
+        "opposing": "Kritik an kommunalen Queer‑Gesundheits‑ und Beratungsstellen, Einwände, Bedenken, Kosten‑ und Rechtsfragen, oppositionelle Stellungnahmen, Einschränkungen, Ablehnung im Gesundheitswesen",
+        "topics": [
+            "Queere Gesundheit",
+            "Gesundheitsversorgung",
+            "Beratung für LSBTIQ*",
+            "Kommunale Sozialpolitik",
+            "Gleichstellung",
+            "Diskriminierungsfreiheit im Gesundheitswesen",
+            "Inklusion",
+            "Öffentliche Gesundheitsdienste",
+            "Intersektionale Gesundheit"
+        ],
+        "measures": [
+            "Einrichtung einer kommunalen Anlaufstelle für queere Gesundheits‑ und Beratungsangebote",
+            "Finanzierung der Anlaufstelle aus kommunalem Haushalt",
+            "Beschaffung von Fachpersonal (Psycholog*innen, Ärzt*innen, Beratende) mit Queer‑Kompetenz",
+            "Kooperation mit VSE e.V. und dem Queeren Zentrum Onkel Emma",
+            "Niedrigschwellige Beratung (Drop‑in‑Sprechstunden, Telefon‑Hotline)",
+            "Aufklärungskampagnen zu LGBTQIA*-spezifischen Gesundheitsfragen",
+            "Schulungen für kommunales Gesundheitspersonal (Sensibilisierung, Anti‑Diskriminierung)",
+            "Integration der Anlaufstelle in das bestehende Gesundheitsamt",
+            "Bereitstellung von Präventionsangeboten (HIV/STI‑Tests, Trans‑Health‑Beratung)"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Kommunale Ebene",
+            "Queere Community vor Ort",
+            "VSE – Verein für sexuelle Emanzipation e.V.",
+            "CSD Braunschweig",
+            "Queeres Zentrum Onkel Emma",
+            "FLINTA‑Spezifische Angebote"
+        ],
+        "goals": [
+            "Verbesserter Zugang zu Gesundheits‑ und Beratungsleistungen für LSBTIQ*‑Personen",
+            "Reduktion von Diskriminierung und Stigmatisierung im Gesundheitssystem",
+            "Steigerung der gesundheitlichen Chancengleichheit",
+            "Stärkung der psychischen und physischen Gesundheit queerer Menschen",
+            "Aufbau von Sichtbarkeit und Anerkennung queerer Gesundheitsbedarfe",
+            "Prävention von HIV, STIs und psychischen Belastungen"
+        ],
+        "implications": [
+            "Queer‑spezifische Gesundheitsversorgung als kommunale Leistung",
+            "Intersektionale Beratung (Berücksichtigung von FLINTA‑Bedürfnissen)",
+            "Langfristige Finanzierung über kommunales Budget",
+            "Netzwerkbildung zwischen Kommune, VSE und Gesundheitsämtern",
+            "Erweiterung des Angebotsspektrums des Queeren Zentrums Onkel Emma",
+            "Schulungsbedarf für kommunales Fachpersonal",
+            "Möglichkeit der gesetzlichen Verankerung von Antidiskriminierungsmaßnahmen im Gesundheitswesen"
+        ],
+        "terms": [
+            "Queer",
+            "LSBTIQ",
+            "VSE",
+            "CSD",
+            "FLINTA"
+        ]
+    },
+    {
+        "these": {
+            "id": "gesundheit-05",
+            "category": "Gesundheit & Soziales",
+            "these": "Die Trans*-Beratungsstelle muss auch nach 2028 weiterfinanziert werden."
+        },
+        "opposing": "Kritik an fortgesetzter Finanzierung der Trans*-Beratungsstelle nach 2028, Argumente für Budgetkürzungen, Gegenpositionen zu öffentlicher Subvention von Trans*-Beratungsangeboten, politische Debatten über die Notwendigkeit und Kosten von Trans*-Beratung nach 2028",
+        "topics": [
+            "Trans*‑Beratung",
+            "Queere Gesundheitsversorgung",
+            "Gleichstellung von LSBTIQ‑Personen",
+            "Soziale Teilhabe",
+            "Antidiskriminierung"
+        ],
+        "measures": [
+            "Weiterfinanzierung nach 2028",
+            "Haushaltszuwendung für die Trans*‑Beratungsstelle",
+            "Sicherstellung öffentlicher Mittel",
+            "Langfristige Förderprogramme für queere Beratung",
+            "Integration in das kommunale Sozialbudget"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "VSE / Queeres Zentrum Onkel Emma",
+            "Kommunaler Haushalt",
+            "Landesförderprogramme für Queere Initiativen",
+            "EU‑Gleichstellungsrahmen"
+        ],
+        "goals": [
+            "Kontinuierliche Unterstützung trans* Personen",
+            "Verbesserung der psychischen Gesundheit",
+            "Zugang zu Rechts‑ und Gesundheitsberatung",
+            "Prävention von Diskriminierung",
+            "Stärkung der Sichtbarkeit von trans* Menschen"
+        ],
+        "implications": [
+            "Langfristige Finanzierung von LSBTIQ‑Einrichtungen",
+            "Verbindliche Budgetplanung für queere Sozialleistungen",
+            "Risiko einer Schließung ohne gesicherte Mittel",
+            "Ausbau von regionalen Beratungsnetzwerken",
+            "Politische Prioritätensetzung für Trans*‑Rechte"
+        ],
+        "terms": [
+            "VSE",
+            "LSBTIQ",
+            "Queer",
+            "FLINTA"
+        ]
+    },
+    {
+        "these": {
+            "id": "migration-01",
+            "category": "Migration & Integration",
+            "these": "Der Zuzug nach Braunschweig soll aktiv begrenzt werden, weil die städtischen Integrationskapazitäten erschöpft sind."
+        },
+        "opposing": "Braunschweig Zuzug nicht begrenzen weil Integrationskapazitäten nicht erschöpft sind Kritik an Beschränkungen Zuwanderung Braunschweig",
+        "topics": [
+            "Zuwanderungsbegrenzung",
+            "Integration von Zugezogenen",
+            "Städtische Integrationskapazität",
+            "Wohnungsmarkt in Braunschweig",
+            "Kommunale Bevölkerungsentwicklung",
+            "Soziale Infrastruktur",
+            "Regionale Zusammenarbeit (ZGB)",
+            "Ordnungsrecht (ZOD)"
+        ],
+        "measures": [
+            "Einführung von Zuzugskontingenten",
+            "Obergrenze für jährlichen Zuzug",
+            "Zuweisung von Wohnberechtigungsscheinen nur an langjährige Einwohner",
+            "Registrierungspflicht für Neuzugezogene",
+            "Begrenzung von Sozialleistungen für Neuankömmlinge",
+            "Ausbau der ZSW als Ansprech­partner für Integrationshilfe",
+            "Koordination über den Zweckverband Großraum Braunschweig (ZGB)",
+            "Durchsetzung durch den Zentralen Ordnungsdienst (ZOD)"
+        ],
+        "contexts": [
+            "Braunschweig (Stadt)",
+            "Zentrale Stelle für Wohnraumhilfe (ZSW)",
+            "Zentraler Ordnungsdienst (ZOD)",
+            "Zweckverband Großraum Braunschweig (ZGB)",
+            "Lokale Wohnungs‑ und Integrationspolitik",
+            "Aktuelle Auslastung von Integrationsangeboten"
+        ],
+        "goals": [
+            "Entlastung der Integrationsdienste",
+            "Sicherung von Wohnraum für bestehende Bürger",
+            "Erhalt der Lebensqualität im Stadtgebiet",
+            "Vermeidung von Überlastung der Sozialinfrastruktur",
+            "Nachhaltige Bevölkerungsentwicklung"
+        ],
+        "implications": [
+            "Notwendigkeit zum Ausbau von Integrationskapazitäten",
+            "Stärkere regionale Koordination (ZGB)",
+            "Mögliche Diskussion über Migrations‑ und Fachkräftpolitik",
+            "Risiko von Diskriminierung bzw. Exklusion",
+            "Auswirkungen auf den lokalen Arbeitsmarkt",
+            "Verknüpfung von Wohnraum‑ und Ordnungsrecht"
+        ],
+        "terms": [
+            "ZSW",
+            "ZOD",
+            "ZGB"
+        ]
+    },
+    {
+        "these": {
+            "id": "migration-02",
+            "category": "Migration & Integration",
+            "these": "Braunschweig soll weiterhin dem Bündnis 'Sicherer Hafen' angehören und sich damit für die freiwillige Aufnahme zusätzlicher geflüchteter Menschen einsetzen."
+        },
+        "opposing": "Braunschweig ablehnt zusätzliche Flüchtlingsaufnahme Kritik am Bündnis Sicherer Hafen Kosten, Wohnraummangel und Integrationsprobleme",
+        "topics": [
+            "Flüchtlingsaufnahme",
+            "Kommunale Asylpolitik",
+            "Sicherer Hafen",
+            "Integration von Geflüchteten",
+            "Sozialer Zusammenhalt",
+            "Menschenrechte",
+            "Wohnungsmarkt",
+            "Stadtentwicklung"
+        ],
+        "measures": [
+            "Beibehaltung der Mitgliedschaft im Bündnis Sicherer Hafen",
+            "Bereitstellung von Unterbringung für zusätzliche Geflüchtete",
+            "Kooperation mit Ankunftszentren (LAB)",
+            "Koordination mit ZSW für Wohnraumhilfe",
+            "Aufbau von Integrationsangeboten (Sprachkurse, Beratungsstellen)",
+            "Finanzielle Unterstützung von Hilfsorganisationen (ASB, AWO, DRK, Johanniter, IGLU)",
+            "Einrichtung von Aufnahmeeinrichtungen in der Stadt",
+            "Förderung von ehrenamtlichem Engagement für Geflüchtete",
+            "Entwicklung von Fachkräftekonzepten für Sozialarbeit"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Bündnis Sicherer Hafen (kommunale Ebene)",
+            "Bundesasylrecht",
+            "Europäische Flüchtlingskrise",
+            "Lokaler Wohnungsmarkt",
+            "Sozialer Wohnungsbau",
+            "Öffentliche Verwaltung",
+            "Zivilgesellschaftliche Hilfsorganisationen"
+        ],
+        "goals": [
+            "Humanitäre Verantwortung wahrnehmen",
+            "Schutz von Schutzsuchenden gewährleisten",
+            "Integration und Teilhabe von Geflüchteten fördern",
+            "Stärkung des sozialen Zusammenhalts",
+            "Aufbau von bezahlbarem Wohnraum für Flüchtlinge",
+            "Positive Stadtimage als weltoffene Kommune",
+            "Entlastung von Bundesbehörden bei Aufnahme",
+            "Förderung von Vielfalt und Toleranz"
+        ],
+        "implications": [
+            "Erhöhter Bedarf an Wohnraum und Infrastruktur",
+            "Notwendigkeit finanzieller Förderungen (Bund, Land, EU)",
+            "Zusammenarbeit mit NGOs (ASB, AWO, DRK, Johanniter, IGLU)",
+            "Potenzielle politische Kontroversen über Zuwanderung",
+            "Stärkung der kommunalen Selbstbestimmung in Asylpolitik",
+            "Ausbau von Integrations‑ und Beratungsnetzwerken",
+            "Risikomanagement bei gesellschaftlicher Spannung",
+            "Langfristige Demografie‑ und Arbeitsmarktentwicklung"
+        ],
+        "terms": [
+            "ASB",
+            "AWO",
+            "DRK",
+            "IGLU",
+            "Johanniter",
+            "LAB",
+            "ZSW"
+        ]
+    },
+    {
+        "these": {
+            "id": "migration-03",
+            "category": "Migration & Integration",
+            "these": "Für Asylbewerber:innen soll eine kommunale Arbeitspflicht eingeführt werden."
+        },
+        "opposing": "Kritik Arbeitspflicht für Asylbewerber:innen kommunal OR Gegen Arbeitspflicht Asylsuchende OR rechtliche Bedenken Arbeitspflicht Asylbewerberinnen und -bewerber OR Grundrechte Asylbewerber Arbeitspflicht kommunal OR Integration ohne Zwangsarbeit Asylsuchende",
+        "topics": [
+            "Asyl",
+            "Arbeitsmarkt",
+            "Integration",
+            "Kommunalpolitik",
+            "Sozialpolitik",
+            "Beschäftigungspflicht",
+            "Fachkräftemangel"
+        ],
+        "measures": [
+            "Einführung einer kommunalen Arbeitspflicht für Asylbewerber:innen",
+            "Verpflichtende Teilhabe an kommunalen Arbeitsprojekten",
+            "Sanktionen bei Nichtteilnahme (Leistungsminderung, Aufenthaltsauflagen)",
+            "Kooperation mit lokalen Unternehmen für Praktika/Jobs",
+            "Aufbau von Integrationsarbeitsplätzen im öffentlichen Sektor",
+            "Verknüpfung von Arbeitsnachweis mit Asylverfahren"
+        ],
+        "contexts": [
+            "Stadt Braunschweig (kommunale Ebene)",
+            "Aufenthalts- und Asylrecht",
+            "LAB / Ankunftszentrum",
+            "Zentrale Stelle für Wohnraumhilfe (ZSW)",
+            "Tagestreff IGLU (unterstützende Einrichtung)",
+            "Lokaler Arbeitsmarkt und Fachkräftebedarf",
+            "Integration in Wohnungs‑ und Sozialwesen"
+        ],
+        "goals": [
+            "Beschleunigte Arbeitsmarktintegration von Asylbewerber:innen",
+            "Steigerung der Eigenständigkeit und Selbstversorgung",
+            "Reduktion von Sozialkosten für die Kommune",
+            "Beitrag zur Deckung des regionalen Fachkräftemangels",
+            "Stärkung der gesellschaftlichen Akzeptanz von Asylsuchenden",
+            "Vermeidung von Parallelgesellschaften"
+        ],
+        "implications": [
+            "Verknüpfung von Asylverfahren mit Beschäftigung",
+            "Mögliche Einschränkung von Sozialleistungen bei Fehlverhalten",
+            "Rechtliche Diskussionen zu Grundrechten und EU‑Asylrecht",
+            "Gefahr von Ausbeutung in Niedriglohnsektoren",
+            "Erhöhter Verwaltungsaufwand der Kommune",
+            "Notwendigkeit von Begleitangeboten (Sprachkurse, Beratung)",
+            "Potenzielle Konflikte mit NGOs und Integrationshilfen"
+        ],
+        "terms": [
+            "LAB",
+            "ZSW",
+            "IGLU"
+        ]
+    },
+    {
+        "these": {
+            "id": "finanzen-01",
+            "category": "Finanzen & Wirtschaft",
+            "these": "Grundsteuer oder Gewerbesteuer sollen erhöht werden, um den Haushalt zu sanieren."
+        },
+        "opposing": "Grundsteuererhöhung und Gewerbesteuererhöhung zur Haushalts‑sanierung Gegenargumente und Kritiken",
+        "topics": [
+            "Kommunalfinanzen",
+            "Steuerpolitik",
+            "Haushaltsausgleich",
+            "Finanzielle Stabilität der Gemeinden",
+            "Steuerautonomie der Kommunen",
+            "Öffentliche Investitionen"
+        ],
+        "measures": [
+            "Erhöhung der Grundsteuer B",
+            "Erhöhung der Grundsteuer C",
+            "Anhebung der Hebesätze für Grundsteuer",
+            "Erhöhung des Gewerbesteuer‑Hebesatzes",
+            "Einführung höherer kommunaler Steuersätze",
+            "Anpassung der Grundsteuermesszahl"
+        ],
+        "contexts": [
+            "kommunaler Haushaltsdefizit",
+            "Finanzierungsbedarf für Infrastruktur",
+            "Steigende Ausgaben durch demografischen Wandel",
+            "Bundesweite Grundsteuerreform 2025",
+            "Wettbewerb zwischen deutschen Kommunen",
+            "lokale Wirtschaftslage in Braunschweig"
+        ],
+        "goals": [
+            "Haushaltssanierung",
+            "Ausgleich von Fehlbeträgen",
+            "Vermeidung von Kommunalschulden",
+            "Sicherstellung von Dienstleistungsfinanzierung",
+            "Finanzielle Handlungsfähigkeit der Kommune"
+        ],
+        "implications": [
+            "Lastenverteilung auf Grundstückseigentümer",
+            "Belastung von Unternehmen durch höhere Gewerbesteuer",
+            "Risiko von Abwanderung von Bewohnern/Unternehmen",
+            "Diskussion über Steuerprogressivität",
+            "Möglichkeit von Gegenmaßnahmen (Entlastungen, Förderprogramme)",
+            "Stärkung der kommunalen Steuerhoheit"
+        ],
+        "terms": [
+            "Grundsteuer B",
+            "Grundsteuer C"
+        ]
+    },
+    {
+        "these": {
+            "id": "finanzen-02",
+            "category": "Finanzen & Wirtschaft",
+            "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden."
+        },
+        "opposing": "Kritik an Rekommunalisierung von Energie‑, Wohn‑ und ÖPNV‑Unternehmen, Argumente gegen Wiederverstaatlichung, Bedenken zu Kosten, Effizienz, Marktliberalisierung und EU‑Recht",
+        "topics": [
+            "Rückführung kommunaler Eigentumsanteile",
+            "Energieversorgung",
+            "Sozialer Wohnungsbau",
+            "Öffentlicher Personennahverkehr",
+            "Städtische Daseinsvorsorge",
+            "Kommunale Wirtschaftspolitik",
+            "Öffentliche Eigentumsformen"
+        ],
+        "measures": [
+            "Übernahme von Anteilen an BS ENERGY, Nibelungen und BSVG durch die Stadt",
+            "Ausschreibung von Rückkaufoptionen bei privaten Investor*innen",
+            "Einrichtung eines kommunalen Holding‑Modells für Infrastrukturunternehmen",
+            "Verbot neuer Privatisierungen im Energiesektor",
+            "Einführung von Gemeinwohl‑Lizenz für ÖPNV‑Verträge",
+            "Erhöhung kommunaler Kapitalbeteiligungen über Kommunalkredite",
+            "Umwandlung von GmbHs in gemeinwohlorientierte AGs unter Stadtanteil"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "BS ENERGY (Braunschweiger Energieversorgungsunternehmen)",
+            "Nibelungen Wohnbau GmbH (städtische Wohnungsbaugesellschaft)",
+            "BSVG / BSVAG (Betreiber des ÖPNV in Braunschweig)",
+            "Verkehrsverbund Region Braunschweig (VRB)",
+            "Kommunale Daseinsvorsorge‑Gesetzgebung",
+            "EU‑Energie‑ und Wohnungsmarktregulierung"
+        ],
+        "goals": [
+            "Sicherung preisgünstiger Grundversorgungsleistungen",
+            "Demokratisierung der Infrastrukturentscheidungen",
+            "Stärkung lokaler Wirtschaftskraft",
+            "Gewährleistung von Versorgungssicherheit",
+            "Förderung ökologischer Energiewende",
+            "Ausbau von sozialem Wohnungsbestand",
+            "Verbesserung des Service‑ und Qualitätsniveaus im ÖPNV"
+        ],
+        "implications": [
+            "Reduzierung von Gewinnorientierung zugunsten von Gemeinwohl",
+            "Erhöhte staatliche Investitionsbedarfe",
+            "Notwendigkeit von transparenten Kontrollmechanismen",
+            "Möglichkeit von Tarifverträgen und Beschäftigungssicherung",
+            "Synergieeffekte zwischen Energie, Wohnen und Verkehr",
+            "Potential für integrierte Mobilitäts‑ und Energieplanung",
+            "Stärkung des Kommunal‑Stakeholder‑Dialoges"
+        ],
+        "terms": [
+            "BS|Energy",
+            "NiWo",
+            "BSVG",
+            "ÖPNV"
+        ]
+    },
+    {
+        "these": {
+            "id": "finanzen-03",
+            "category": "Finanzen & Wirtschaft",
+            "these": "Braunschweig soll gezielt internationale Fachkräfte für die Stadt gewinnen."
+        },
+        "opposing": "kritik an gezielter gewinnung internationaler fachkräfte für Braunschweig OR einwand gegen fachkräfteeinwanderung in Braunschweig wegen wohnraummangel, lokaler arbeitsmarkt oder integrationsprobleme",
+        "topics": [
+            "Fachkräfteeinwanderung",
+            "Arbeitsmarkt",
+            "Demografischer Wandel",
+            "Wirtschaftsförderung",
+            "Standortattraktivität",
+            "Bildung & Forschung",
+            "Internationale Fachkräfte",
+            "Integration",
+            "Stadtentwicklung"
+        ],
+        "measures": [
+            "gezielte Anwerbungsprogramme",
+            "Beschleunigtes Visum‑ bzw. Blue‑Card‑Verfahren",
+            "Kooperation mit TU Braunschweig und Forschungseinrichtungen (JKI, HZI, DLR, DSMZ, Thünen)",
+            "Anerkennung ausländischer Berufsqualifikationen vereinfachen",
+            "Sprach‑ und Integrationskurse für Zugezogene",
+            "Wohnraumförderung für Fachkräfte (z. B. über NiWo)",
+            "Steuer‑ und Finanzanreize für Fachkräfte und deren Arbeitgeber",
+            "Job‑Matching‑Plattform der Stadt",
+            "Mentoring‑ und Patenschaftsprogramme",
+            "Praktikums‑ & Trainee‑Stipendien",
+            "Informationskampagnen im Ausland",
+            "Netzwerk von Arbeitgebern und Start‑Ups",
+            "Fast‑Track Verfahren für Forschungsexperten"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "lokaler Fachkräftemangel",
+            "Wettbewerb um internationale Talente",
+            "Bundes‑ und EU‑Einwanderungsrecht",
+            "Wohnungsmarkt in Braunschweig",
+            "Forschungslandschaft in Braunschweig",
+            "demografische Alterung",
+            "wirtschaftliche Struktur der Region"
+        ],
+        "goals": [
+            "Sicherung des Fachkräftebedarfs",
+            "Stärkung der regionalen Wirtschaft",
+            "Steigerung der Innovationskraft",
+            "Ausgleich demografischer Defizite",
+            "Erhöhung der Standortattraktivität",
+            "Langfristiges Wirtschaftswachstum",
+            "Verbesserung der sozialen Integration"
+        ],
+        "implications": [
+            "Notwendigkeit von Anerkennungsreformen",
+            "Zusammenarbeit zwischen Stadtverwaltung und Forschungsinstituten",
+            "Erweiterung von Wohnungsbaumaßnahmen für Fachkräfte",
+            "Erhöhte Nachfrage nach Sprach‑ und Integrationsangeboten",
+            "Abstimmung mit nationalen Fachkräfteeinwanderungsstrategien",
+            "Diversitätsförderung in der Stadtgesellschaft",
+            "Entwicklung von internationalen Netzwerken und Kooperationen"
+        ],
+        "terms": [
+            "TU BS",
+            "JKI",
+            "HZI",
+            "DLR",
+            "DSMZ",
+            "GEI",
+            "Thünen",
+            "HBK",
+            "NiWo",
+            "ZSW",
+            "BOMA+",
+            "Pocket-Parks",
+            "MEP",
+            "BSVG",
+            "MIV",
+            "Velorouten",
+            "KWP",
+            "IKSK"
+        ]
+    },
+    {
+        "these": {
+            "id": "finanzen-04",
+            "category": "Finanzen & Wirtschaft",
+            "these": "Freiwillige städtische Leistungen (Kultur, Sport, Jugendarbeit) sollen im Zweifel eher gekürzt als über neue Schulden finanziert werden."
+        },
+        "opposing": "Argumente für Beibehaltung oder Ausbau kommunaler Kultur‑, Sport‑ und Jugendarbeit trotz Haushaltsdefizit und Schuldenfinanzierung",
+        "topics": [
+            "Kommunalfinanzen",
+            "Haushaltsdisziplin",
+            "Kulturpolitik",
+            "Sportförderung",
+            "Jugendarbeit",
+            "Verschuldung",
+            "Schuldenbremse",
+            "Öffentliche Daseinsvorsorge"
+        ],
+        "measures": [
+            "Haushaltskürzungen bei freiwilligen Leistungen",
+            "Verzicht auf neue kommunale Kredite",
+            "Ausgabensperre für Kultur‑ und Sportprojekte",
+            "Priorisierung von Pflichtaufgaben im Haushalt",
+            "Rücklagenbildung statt Neuverschuldung",
+            "Finanzielle Prüfung freiwilliger Programme",
+            "Umstellung von Förderprogrammen auf Eigenanteile"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Lokale Kultureinrichtungen (B58, LOT‑Theater, Haus der Musik, HdK)",
+            "Queere Angebote (CSD, VSE)",
+            "Kommunale Sportstätten",
+            "Jugendzentren (z. B. B58)",
+            "Landesrecht zur Grundsteuer und Schuldenbremse",
+            "Öffentlich‑private Partnerschaften (ÖPP) als Alternative"
+        ],
+        "goals": [
+            "Haushaltsausgleich",
+            "Schuldenreduktion",
+            "Finanzielle Stabilität der Kommune",
+            "Vermeidung neuer Verschuldung",
+            "Langfristige Tragfähigkeit öffentlicher Finanzen",
+            "Entlastung zukünftiger Generationen"
+        ],
+        "implications": [
+            "Mögliche Schließung oder Reduzierung von Kultur‑ und Sportangeboten",
+            "Einschränkung von Jugendarbeit und Freizeiteinrichtungen",
+            "Verlagerung von Aufgaben auf Ehrenamt und Privatsektor",
+            "Risiko von Kultur‑ und Sportarmut in der Stadt",
+            "Diskussion über Pflicht‑ vs. freiwillige kommunale Leistungen",
+            "Potenzielle Nutzung von PPP‑Modellen für Infrastruktur",
+            "Soziale Ungleichheit durch Wegfall kostenloser Angebote"
+        ],
+        "terms": [
+            "B58",
+            "LOT",
+            "Haus der Musik",
+            "HdK",
+            "CSD",
+            "VSE",
+            "Grundsteuer B",
+            "Grundsteuer C",
+            "PPP"
+        ]
+    },
+    {
+        "these": {
+            "id": "bildung-01",
+            "category": "Bildung & Kinder",
+            "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen (IGS) schaffen, um der hohen Nachfrage gerecht zu werden."
+        },
+        "opposing": "Braunschweig IGS Plätze Ausbau Kritik Kosten Budgetbegrenzungen Gegenargumente zu zusätzlichen Schulplätzen integrierte Gesamtschulen",
+        "topics": [
+            "Bildung",
+            "Schulplatzpolitik",
+            "Integrative Gesamtschulen",
+            "Bildungsgerechtigkeit",
+            "Stadtentwicklung Braunschweig",
+            "Demografischer Wandel"
+        ],
+        "measures": [
+            "Ausbau von IGS‑Plätzen",
+            "Neubau von Klassenräumen an IGS",
+            "Erweiterung bestehender IGS‑Standorte",
+            "Bereitstellung von Fördermitteln für Schulbau",
+            "Anpassung des Flächennutzungsplans für Schulgebäude",
+            "Einstellen zusätzlicher Lehrkräfte für IGS"
+        ],
+        "contexts": [
+            "Braunschweig (Kommunal‑ und Landesebene)",
+            "hohe Nachfrage nach Integrativen Gesamtschulen",
+            "Zuwanderungs‑ und Geburtenraten‑Entwicklung",
+            "bestehende Überbelegung an Schulen",
+            "Bildungspolitik des Landes Niedersachsen"
+        ],
+        "goals": [
+            "Gerechter Zugang zu IGS‑Plätzen für alle Kinder",
+            "Entlastung überfüllter Schulen",
+            "Stärkung von Ganztags‑ und Inklusionsangeboten",
+            "Chancengleichheit im Bildungssystem",
+            "Langfristige Sicherung von Schulkapazitäten"
+        ],
+        "implications": [
+            "Erhöhter Finanzbedarf im Kommunalhaushalt",
+            "Notwendigkeit von zusätzlichem Schulpersonal",
+            "Konfliktpotenzial mit anderen Schulformen",
+            "Diskussion über Schulwahl und -zuteilung",
+            "Anpassungen im städtebaulichen Planungskonzept"
+        ],
+        "terms": [
+            "IGS"
+        ]
+    },
+    {
+        "these": {
+            "id": "bildung-02",
+            "category": "Bildung & Kinder",
+            "these": "An allen Schulen und Kitas soll es kostenloses Mittagessen geben."
+        },
+        "opposing": "Kostenloses Mittagessen an Schulen und Kitas Kritik Finanzierungsbelastung, Budgeteinschränkungen, ineffiziente Mittelverwendung, Probleme bei Umsetzung, Gegenargumente gegen flächendeckende kostenlose Mahlzeiten",
+        "topics": [
+            "Bildung",
+            "Frühkindliche Bildung",
+            "Schulverpflegung",
+            "Kindertagesstätten",
+            "Ernährung",
+            "Soziale Gerechtigkeit",
+            "Kinderarmut",
+            "Gesundheit"
+        ],
+        "measures": [
+            "Kostenloses Mittagessen",
+            "Staatliche Finanzierung der Schulverpflegung",
+            "Verpflegungszuschuss für Kitas",
+            "Ausbau von Kantinen und Küchen",
+            "Subventionierte Mahlzeiten"
+        ],
+        "contexts": [
+            "Schulen",
+            "Kindertagesstätten (Kitas)",
+            "Kommunale Haushalte",
+            "Bundesland Niedersachsen",
+            "Städtische Verwaltung (z. B. Braunschweig)",
+            "Sozialpolitik"
+        ],
+        "goals": [
+            "Chancengleichheit im Bildungsbereich",
+            "Verbesserung der Kindergesundheit",
+            "Bekämpfung von Kinderarmut",
+            "Steigerung der Konzentrations‑ und Lernfähigkeit",
+            "Förderung gesunder Ernährungsgewohnheiten"
+        ],
+        "implications": [
+            "Erhöhte Finanzmittel für Kommunen",
+            "Bedarf an Küchenpersonal und Infrastruktur",
+            "Qualitäts- und Sicherheitsstandards für Lebensmittel",
+            "Regionale Beschaffung und Nachhaltigkeit",
+            "Diskussion über Steuerfinanzierung",
+            "Integration von Ernährungspädagogik",
+            "Prävention von Mangelernährung und Übergewicht"
+        ],
+        "terms": [
+            "Kita"
+        ]
+    },
+    {
+        "these": {
+            "id": "bildung-03",
+            "category": "Bildung & Kinder",
+            "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben."
+        },
+        "opposing": "Kritik an verpflichtenden festen Stellen für Schulsozialarbeit an jeder Schule Kosten Wirksamkeit Alternative Modelle Schulunterstützung",
+        "topics": [
+            "Bildung",
+            "Schulsozialarbeit",
+            "Kinder- und Jugendhilfe",
+            "Soziale Arbeit in Schulen",
+            "Prävention von Gewalt und Mobbing",
+            "Psychische Gesundheit von Schüler*innen",
+            "Chancengleichheit",
+            "Inklusion"
+        ],
+        "measures": [
+            "Einrichtung einer festen Stelle für Schulsozialarbeiter*innen an jeder Schule",
+            "Verbindliche Personalquote im Schulgesetz",
+            "Finanzielle Ausstattung von Schulsozialarbeit durch kommunale/landesweite Mittel",
+            "Beschaffung von langfristigen Stellenbesetzungen statt Projektjobs",
+            "Förderprogramme für Ausbildung von Schulsozialarbeiter*innen",
+            "Kooperationsvereinbarungen mit Wohlfahrtsverbänden (z. B. ASB, AWO, DRK, Malteser, Johanniter)"
+        ],
+        "contexts": [
+            "Grundschulen und weiterführende Schulen (inkl. IGS, Gesamtschulen)",
+            "Kommunale Schulträger",
+            "Landesbildungspolitik",
+            "Sozialer Alltag von Kindern und Jugendlichen in Braunschweig",
+            "Zusammenarbeit mit lokalen Einrichtungen (B58, IGLU, CURA)",
+            "Existierende Fachkräfte aus Wohlfahrtsorganisationen"
+        ],
+        "goals": [
+            "Stärkung des sozialen Klimas an Schulen",
+            "Frühzeitige Intervention bei sozialen bzw. psychischen Problemen",
+            "Reduktion von Schulabbrüchen und Aus‑ und Abschwüngen",
+            "Verbesserung der Integration von benachteiligten und vulnerablen Schüler*innen",
+            "Förderung von Resilienz und sozialen Kompetenzen",
+            "Sicherstellung von Gleichberechtigung und Teilhabe für alle Lernenden"
+        ],
+        "implications": [
+            "Erhöhter Bedarf an qualifiziertem Schulsozialpersonal",
+            "Notwendigkeit langfristiger Budgetierung im Haushaltsplan",
+            "Gesetzliche Verankerung von Schulsozialarbeit",
+            "Ausbau von Kooperationsnetzwerken mit Wohlfahrtsverbänden (ASB, AWO, DRK, Malteser, Johanniter)",
+            "Einbindung von LSBTIQ/FLINTA‑Sensibilisierung in die Sozialarbeit",
+            "Qualitätssicherung und Evaluation der Schulsozialarbeit",
+            "Verknüpfung mit Präventionsangeboten von Jugendzentren (z. B. B58, IGLU)"
+        ],
+        "terms": [
+            "ASB",
+            "AWO",
+            "DRK",
+            "Malteser",
+            "Johanniter",
+            "CURA",
+            "IGS",
+            "B58",
+            "IGLU",
+            "VSE",
+            "LSBTIQ",
+            "FLINTA"
+        ]
+    },
+    {
+        "these": {
+            "id": "kultur-01",
+            "category": "Kultur, Demokratie & Gesellschaft",
+            "these": "Das geplante 'Haus der Musik' soll wie beschlossen umgesetzt werden."
+        },
+        "opposing": "Kritik und Bedenken zur Umsetzung des geplanten „Haus der Musik“, Kostenüberschreitungen, Finanzierungssorgen, Widerstand von Bürgern und Kulturschaffenden, alternative Nutzung des Budgets, Ablehnung des Projekts",
+        "topics": [
+            "Kulturförderung",
+            "Stadtentwicklung",
+            "Musikpädagogik",
+            "Kulturinfrastruktur",
+            "Bauvorhaben",
+            "Innenstadtentwicklung"
+        ],
+        "measures": [
+            "Bau des Hauses der Musik",
+            "Einrichtung eines Konzertsaals",
+            "Unterbringung der Städtischen Musikschule",
+            "Finanzierung aus Kommunalbudget",
+            "Öffentliche Ausschreibung",
+            "Barrierefreier Zugang",
+            "Nachhaltige Bauweise"
+        ],
+        "contexts": [
+            "Braunschweig",
+            "Innenstadt",
+            "Kommunale Planung",
+            "beschlossene Bauprojekte",
+            "lokale Kulturszene",
+            "Städtische Musikschule"
+        ],
+        "goals": [
+            "Förderung musikalischer Bildung",
+            "Erweiterung des Kulturangebots",
+            "Belebung der Innenstadt",
+            "Stärkung kultureller Identität",
+            "Anziehung von Besucher*innen",
+            "Schaffung von Kulturarbeitsplätzen"
+        ],
+        "implications": [
+            "Steigerung der Stadtattraktivität",
+            "Wirtschaftliche Impulse durch Kulturtourismus",
+            "Langfristige Nutzung öffentlicher Mittel",
+            "Soziale Teilhabe",
+            "Kosten‑ und Finanzierungsdebatte",
+            "Kooperation mit Schulen und Hochschulen",
+            "Umweltfreundliche Bauweise"
+        ],
+        "terms": [
+            "Haus der Musik"
+        ]
+    },
+    {
+        "these": {
+            "id": "kultur-02",
+            "category": "Kultur, Demokratie & Gesellschaft",
+            "these": "Schulen sollen sich aktiv mit Vielfalt und Diskriminierung auseinandersetzen."
+        },
+        "opposing": "Kritik an verpflichtender Diversitäts- und Diskriminierungsarbeit in Schulen, Einschränkung der pädagogischen Freiheit, Befürchtungen von Ideologisierung und Spaltung durch schulische Diversity‑Programme",
+        "topics": [
+            "Bildung",
+            "Schulpolitik",
+            "Vielfalt",
+            "Diskriminierung",
+            "Inklusion",
+            "Gleichstellung",
+            "Antirassismus",
+            "Gendergerechtigkeit",
+            "LGBTQIA*‑Schutz"
+        ],
+        "measures": [
+            "Lehrpläne für Diversity‑Bildung",
+            "Fortbildung für Lehrkräfte zu Antidiskriminierung",
+            "Anti‑Mobbing‑ und Hate‑Speech‑Programme",
+            "Einrichtung von schulischen Anlaufstellen für FLINTA* und LGBTQIA*",
+            "Projektwochen zu interkultureller Kompetenz",
+            "Kooperation mit VSE/Queer‑Zentrum",
+            "Entwicklung von Leitlinien für ein diskriminierungsfreies Schulklima",
+            "Einbindung von Gender‑ und Diversity‑Themen in Fachunterricht",
+            "Regelmäßige Klima‑ und Gleichstellungs‑Audits"
+        ],
+        "contexts": [
+            "Grundschulen, Sekundarstufe I und II",
+            "Integrierte Gesamtschulen (IGS)",
+            "Braunschweiger Schullandschaft",
+            "Bundesweite Bildungsreform",
+            "EU‑Antidiskriminierungsrichtlinien",
+            "Allgemeines Gleichbehandlungsgesetz (AGG)",
+            "Schulträger und Schulbehörden"
+        ],
+        "goals": [
+            "Reduktion von Diskriminierung und Mobbing",
+            "Förderung von Toleranz und gesellschaftlichem Zusammenhalt",
+            "Chancengleichheit für alle Schüler*innen",
+            "Stärkung von Selbstbewusstsein marginalisierter Gruppen",
+            "Demokratiefördernde Schulkultur",
+            "Kompetente Lehrkräfte im Umgang mit Vielfalt"
+        ],
+        "implications": [
+            "Notwendigkeit von Lehrer*innenfortbildungen",
+            "Anpassung von Prüfungs- und Bewertungskriterien",
+            "Einführung von Beschwerde‑ und Mediationsstellen",
+            "Verankerung von Intersektionalität im Curriculum",
+            "Erweiterte Verantwortung von Schulkonferenzen",
+            "Langfristige Überwachung und Evaluierung von Diversity‑Maßnahmen"
+        ],
+        "terms": [
+            "FLINTA",
+            "LSBTIQ",
+            "Queer",
+            "CSD",
+            "VSE",
+            "IGS"
+        ]
+    },
+    {
+        "these": {
+            "id": "kultur-03",
+            "category": "Kultur, Demokratie & Gesellschaft",
+            "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein."
+        },
+        "opposing": "kritische Stellungnahmen zu einem traditionellen Familienbild aus Vater, Mutter und Kindern als Leitbild der kommunalen Familienpolitik, inklusive Argumente für vielfältige Familienformen wie Alleinerziehende, Regenbogenfamilien, Patchwork‑Familien, Großfamilien und andere nicht‑traditionelle Modelle",
+        "topics": [
+            "Familienpolitik",
+            "Kommunalpolitik",
+            "Traditionelles Familienbild",
+            "Geschlechterrollen",
+            "Kinderbetreuung",
+            "Demografischer Wandel",
+            "Sozialpolitik"
+        ],
+        "measures": [
+            "Förderprogramme für Kernfamilien",
+            "Steuerliche Entlastungen für Ehepaare",
+            "Ausbau familienfreundlicher Einrichtungen mit Schwerpunkt auf traditioneller Rollenverteilung",
+            "Subventionen für familiengerechten Wohnungsbau",
+            "Kinderbetreuungsplätze bevorzugt für Eltern‑Kind‑Kombination",
+            "Elternzeitregelungen mit Fokus auf Vater‑ und Mutterrolle",
+            "Öffentliche Kampagnen für traditionelle Familienwerte"
+        ],
+        "contexts": [
+            "Kommunale Ebene (z. B. Stadt Braunschweig)",
+            "Lokale Satzungen zur Familienpolitik",
+            "Debatte um Leitbilder in Kommunalprogrammen",
+            "Gesellschaftlicher Diskurs über Familienformen",
+            "Demografische Entwicklung in städtischen Gebieten",
+            "Landesrechtliche Rahmenbedingungen"
+        ],
+        "goals": [
+            "Stärkung der traditionellen Kernfamilie",
+            "Steigerung der Geburtenrate",
+            "Sozialer Zusammenhalt",
+            "Stabilität der Erziehung in klassischen Familienstrukturen",
+            "Kulturelle Kontinuität",
+            "Verbesserung der Vereinbarkeit von Familie und Beruf im traditionellen Modell"
+        ],
+        "implications": [
+            "Ausschluss oder Benachteiligung alternativer Familienformen",
+            "Verstärkung von Geschlechterstereotypen",
+            "Konflikt mit Gleichstellungs‑ und Antidiskriminierungspolitik",
+            "Mögliche Diskriminierung von Alleinerziehenden",
+            "Betonung der Ehe als zentrale Institution",
+            "Verknüpfung von Familienwerten mit kommunaler Identität",
+            "Auswirkungen auf die Vergabe von Sozialleistungen"
+        ],
+        "terms": []
+    },
+    {
+        "these": {
+            "id": "kultur-04",
+            "category": "Kultur, Demokratie & Gesellschaft",
+            "these": "Die Stadt soll einen kommunalen Aktionsplan gegen Rechtsextremismus verbindlich umsetzen und regelmäßig fortschreiben."
+        },
+        "opposing": "Kritik an verpflichtenden kommunalen Aktionsplänen zur Bekämpfung von Rechtsextremismus, insbesondere Bedenken zu Grundrechtseinschränkungen, Überwachung, Stigmatisierung, Zweifel an Wirksamkeit und kommunaler Kompetenz",
+        "topics": [
+            "Rechtsextremismus",
+            "Kommunale Sicherheit",
+            "Demokratie- und Rechtsstaatsschutz",
+            "Gesellschaftlicher Zusammenhalt",
+            "Antirassismus",
+            "Hasskriminalität"
+        ],
+        "measures": [
+            "Erstellung eines kommunalen Aktionsplans gegen Rechtsextremismus",
+            "Verbindliche Umsetzung des Aktionsplans durch die Stadtverwaltung",
+            "Regelmäßige Fortschreibung und Aktualisierung des Plans",
+            "Finanzielle Ausstattung von Präventionsprojekten",
+            "Einrichtung einer Fachstelle bzw. Koordinationsstelle im ZOD",
+            "Schulungen für Ordnungsbehörden und kommunales Personal",
+            "Monitoring‑ und Berichtspflicht für umgesetzte Maßnahmen",
+            "Kooperation mit zivilgesellschaftlichen Initiativen und dem RVB/ZGB"
+        ],
+        "contexts": [
+            "Städtische Verwaltung (Braunschweig)",
+            "Kommunalpolitik und Haushaltsplanung",
+            "Zusammenarbeit mit dem Regionalverband Großraum Braunschweig (RVB/ZGB)",
+            "Koordination mit der Polizeibehörde und dem Verfassungsschutz",
+            "Öffentlicher Raum und kommunale Einrichtungen (Schulen, Jugendzentren)",
+            "Gesamtregion Braunschweig"
+        ],
+        "goals": [
+            "Reduzierung rechtsextremistischer Aktivitäten",
+            "Stärkung demokratischer Grundwerte",
+            "Schutz von Minderheiten und Gefährdetengruppen",
+            "Verbesserung der öffentlichen Sicherheit",
+            "Prävention von Hass- und Gewaltverbrechen",
+            "Förderung von Toleranz und gesellschaftlichem Zusammenhalt"
+        ],
+        "implications": [
+            "Erweiterte Befugnisse und Aufgaben für den Zentralen Ordnungsdienst (ZOD)",
+            "Verbindliche Haushaltsbindung für Präventionsmaßnahmen",
+            "Einbindung von Schulen, Jugendverbänden und lokalen Initiativen",
+            "Langfristige Strategieentwicklung gegen Rechtsextremismus",
+            "Erhöhte Transparenz und Rechenschaftspflicht der Stadt",
+            "Möglichkeit von Sanktionen bei Nichtumsetzung des Aktionsplans"
+        ],
+        "terms": [
+            "ZOD",
+            "RVB",
+            "ZGB"
+        ]
+    },
+    {
+        "these": {
+            "id": "kultur-05",
+            "category": "Kultur, Demokratie & Gesellschaft",
+            "these": "Die Stadt Braunschweig soll Werbung für die Bundeswehr auf städtischen Bussen und Bahnen verbieten."
+        },
+        "opposing": "Kritik an Verbot der Bundeswehr-Werbung in Braunschweig öffentlichen Verkehrsmitteln, Argumente für militärische Werbung im ÖPNV, Freiheit der Werbung, Rekrutierungsbedarf, Erfolg von Bundeswehr-Werbung im Nahverkehr",
+        "topics": [
+            "Öffentlicher Personennahverkehr",
+            "Militärische Werbung",
+            "Kommunale Werberichtlinien",
+            "Friedenspolitik",
+            "Zivile Neutralität"
+        ],
+        "measures": [
+            "Verbot von Bundeswehr‑Werbung im ÖPNV",
+            "Einführung einer Werbeverbotsverordnung für militärische Einrichtungen",
+            "Regulierung von Werbung in Bussen und Bahnen",
+            "Sanktionen bei Verstößen gegen das Werbeverbot"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "BSVG / BSVAG",
+            "Verkehrsverbund Region Braunschweig (VRB)",
+            "ÖPNV‑Busse und -Bahnen",
+            "Kommunale Zuständigkeit für Werbung",
+            "Rekrutierung der Bundeswehr"
+        ],
+        "goals": [
+            "Schutz vor Militarisierung des öffentlichen Raums",
+            "Stärkung zivilgesellschaftlicher Friedenskultur",
+            "Verhinderung von Propaganda im Stadtverkehr",
+            "Wahrung des Kindes‑ und Jugendschutzes",
+            "Förderung einer friedlichen Stadtidentität"
+        ],
+        "implications": [
+            "Abwägung von Meinungsfreiheit und Werbeverbot",
+            "Mögliche juristische Auseinandersetzungen",
+            "Einfluss auf Rekrutierungszahlen der Bundeswehr",
+            "Signalwirkung für kommunale Friedens- und Abrüstungsinitiativen",
+            "Verlust von Werbeeinnahmen für den ÖPNV",
+            "Vorbildfunktion für andere Kommunen"
+        ],
+        "terms": [
+            "BSVG",
+            "ÖPNV",
+            "SPNV"
+        ]
+    },
+    {
+        "these": {
+            "id": "digitalisierung-01",
+            "category": "Digitalisierung, Verwaltung & Beteiligung",
+            "these": "Verwaltungsanträge sollen künftig verstärkt durch Künstliche Intelligenz vorgeprüft werden."
+        },
+        "opposing": "Künstliche Intelligenz Vorprüfung von Verwaltungsanträgen Bedenken Datenschutz Rechtsstaatlichkeit Kritik",
+        "topics": [
+            "Digitalisierung der Verwaltung",
+            "E‑Government",
+            "Künstliche Intelligenz in der Verwaltung",
+            "Verwaltungsmodernisierung",
+            "Automatisierung von Behördengängen",
+            "Verwaltungsdigitalisierung"
+        ],
+        "measures": [
+            "Einführung von KI‑basierten Vorprüfungsalgorithmen",
+            "Automatisierte Vorprüfung von Anträgen",
+            "Pilotprojekte für KI‑gestützte Entscheidungsunterstützung",
+            "Gesetzliche Vorgaben für KI‑Voranalyse",
+            "Aufbau einer KI‑Infrastruktur im öffentlichen Sektor",
+            "Datenschutzkonforme KI‑Anwendungen",
+            "Schulung von Verwaltungsmitarbeitenden im KI‑Einsatz",
+            "Beschaffung von standardisierten KI‑Tools",
+            "Einrichtung von KI‑Labors in Behörden"
+        ],
+        "contexts": [
+            "Kommunale Ämter",
+            "Landesbehörden",
+            "Bürger*innen bei Antragstellung",
+            "Bau‑ und Genehmigungsverfahren",
+            "Sozial‑ und Fördermittelanträge",
+            "Braunschweig‑spezifische Verwaltungsprozesse",
+            "EU‑Digitalstrategie",
+            "Fachkräftemangel in der Verwaltung",
+            "Datenschutz‑ und DSGVO‑Rahmen"
+        ],
+        "goals": [
+            "Beschleunigung von Verwaltungsverfahren",
+            "Reduzierung von Bearbeitungszeiten",
+            "Effizienzsteigerung in der Verwaltung",
+            "Entlastung von Sachbearbeitenden",
+            "Kostenersparnis für den öffentlichen Sektor",
+            "Verbesserung des Bürgerservices",
+            "Fehlerreduktion bei Antragsprüfung",
+            "Erhöhung der Transparenz von Entscheidungen"
+        ],
+        "implications": [
+            "Notwendigkeit von KI‑Ethik‑ und Datenschutzrichtlinien",
+            "Risiko algorithmischer Diskriminierung",
+            "Qualitäts- und Verfügbarkeitsanforderungen an Daten",
+            "Bedarf an qualifiziertem IT‑Personal",
+            "Rechtliche Rahmenbedingungen für KI‑Einsatz",
+            "Interoperabilität von Verwaltungs‑IT‑Systemen",
+            "Digitale Souveränität des Staates",
+            "Mögliche Arbeitsplatzverlagerungen",
+            "Widerstand von Gewerkschaften und Personalvertretungen",
+            "Forschungsförderung im Bereich Verwaltungs‑KI"
+        ],
+        "terms": []
+    },
+    {
+        "these": {
+            "id": "digitalisierung-02",
+            "category": "Digitalisierung, Verwaltung & Beteiligung",
+            "these": "Auch nach der Digitalisierung müssen alle Verwaltungsleistungen analog nutzbar bleiben."
+        },
+        "opposing": "Digitale Verwaltungsleistungen vollständig ersetzen analoge Optionen, Argumente gegen Pflicht zur analogen Verfügbarkeit nach Digitalisierung",
+        "topics": [
+            "Digitalisierung der Verwaltung",
+            "Analoge Verwaltungsleistungen",
+            "Mehrkanalstrategie",
+            "Bürgernähe",
+            "Inklusion und Barrierefreiheit",
+            "Digitaler Spaltung"
+        ],
+        "measures": [
+            "Bereitstellung von Papierformularen neben Online‑Formularen",
+            "Bürgerbüros mit persönlicher Vorsprache erhalten",
+            "Telefon‑ und Fax‑Antragstellungen ermöglichen",
+            "Recht auf analoge Antragstellung gesetzlich verankern",
+            "Übergangsregelungen für die Parallelität von analog und digital",
+            "Schulungen und Beratung für digitale Grundkompetenz",
+            "Duale Service‑Hotline für analoge und digitale Fragen"
+        ],
+        "contexts": [
+            "Kommunale Verwaltung (z. B. Stadt Braunschweig)",
+            "Landes- und Bundesebene der E‑Government‑Strategie",
+            "Bevölkerung mit eingeschränktem Internetzugang",
+            "Ältere Menschen und Menschen mit Behinderung",
+            "Post‑COVID‑Zeiten und verstärkte Digitalisierung",
+            "Rechtliche Rahmenbedingungen (z. B. eGovernment‑Gesetz)"
+        ],
+        "goals": [
+            "Sicherstellung von Chancengleichheit beim Zugriff auf Verwaltungsdienste",
+            "Vermeidung einer digitalen Spaltung",
+            "Gewährleistung von Service‑Kontinuität während des Digitalisierungsprozesses",
+            "Stärkung der Bürgernähe und Akzeptanz von e‑Government",
+            "Schutz von Grundrechten auf Informationszugang"
+        ],
+        "implications": [
+            "Kosten für den Betrieb paralleler analog‑digitaler Systeme",
+            "Notwendigkeit klarer Vorgaben für die Wahl des Zugangsweges",
+            "Erfordernis interoperabler IT‑Lösungen zum Austausch von Daten",
+            "Potenzial für Bürokratieabbau durch digitale Prozesse, ohne analoge Alternativen zu verlieren",
+            "Erweiterung des digitalen Bürgerportals (z. B. FRISBI) um analoge Servicepunkte"
+        ],
+        "terms": [
+            "FRISBI",
+            "ZSW",
+            "ZOD"
+        ]
+    },
+    {
+        "these": {
+            "id": "digitalisierung-03",
+            "category": "Digitalisierung, Verwaltung & Beteiligung",
+            "these": "Bürger:innen sollen über einen Bürgerhaushalt direkt mitentscheiden dürfen, wie ein Teil des städtischen Budgets verwendet wird."
+        },
+        "opposing": "Kritik an Bürgerhaushalten Beschränkungen rechtliche Vorgaben finanzielle Risiken fehlende Fachkompetenz und Risiken für kommunale Haushaltsplanung – warum direkte Bürgerentscheidungen im Haushalt begrenzt oder problematisch sein können",
+        "topics": [
+            "Partizipative Demokratie",
+            "Direkte Demokratie",
+            "Kommunale Finanzpolitik",
+            "Haushaltsplanung",
+            "Bürgerbeteiligung"
+        ],
+        "measures": [
+            "Bürgerhaushalt",
+            "Participatory Budgeting",
+            "Direkte Haushaltsentscheide",
+            "Beteiligungsplattform",
+            "Gesetzliche Verankerung von Bürgerhaushalten",
+            "Teilbudget für Bürgerprojekte"
+        ],
+        "contexts": [
+            "Stadt Braunschweig",
+            "Kommunale Ebene",
+            "Kommunalverwaltung",
+            "Öffentlicher Haushalt",
+            "Städtisches Budget",
+            "Lokale Gemeinde"
+        ],
+        "goals": [
+            "Mehr Transparenz",
+            "Demokratisierung der Finanzpolitik",
+            "Bürgernähe",
+            "Legitimitätssteigerung",
+            "Stärkung des zivilgesellschaftlichen Engagements",
+            "Effiziente Mittelverwendung"
+        ],
+        "implications": [
+            "Einführung neuer Beteiligungsinstrumente",
+            "Aufbereitung von Haushaltsinformationen für Bürger",
+            "Anpassung des Haushaltsrechts",
+            "Kooperation zwischen Verwaltung und Bürgerschaft",
+            "Ausweitung partizipativer Verfahren auf weitere Politikfelder",
+            "Nutzung digitaler Beteiligungstools"
+        ],
+        "terms": [
+            "BSVG",
+            "MEP",
+            "Grundsteuer B",
+            "Grundsteuer C",
+            "KWP",
+            "PPP",
+            "ZGB",
+            "RVB",
+            "ZSW",
+            "BOMA+",
+            "Pocket-Parks"
+        ]
+    }
+]
