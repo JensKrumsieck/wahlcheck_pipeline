@@ -1,3 +1,7 @@
+import json
+import os
+from pathlib import Path
+
 from llama_index.core import VectorStoreIndex
 from llama_index.core.llms import MockLLM
 from llama_index.core.retrievers import QueryFusionRetriever
@@ -6,7 +10,7 @@ from llama_index.postprocessor.sbert_rerank import SentenceTransformerRerank
 from llama_index.retrievers.bm25 import BM25Retriever
 from huggingface_hub.constants import HF_HUB_CACHE
 from tqdm import tqdm
-from wahlcheck_ai.config import K_PER_VARIANT
+from wahlcheck_ai.config import K_PER_VARIANT, RETRIEVAL_DIR
 
 TOP_K = 8
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
@@ -14,6 +18,34 @@ K_RERANK = 25
 K_CANDIDATES = 100
 
 _RERANKER: SentenceTransformerRerank | None = None
+
+
+def retrieve_for(
+    filename: Path, theses, vector_index, bm25_retriever, force: bool = False
+):
+    print(f"Retrieving and Reranking Theses for {filename.stem}")
+
+    filename = RETRIEVAL_DIR / f"{filename.stem}.json"
+    os.makedirs(filename.parent, exist_ok=True)
+    if not filename.exists() or force:
+        retrievals = {}
+        for these in tqdm(theses):
+            thesis = these["these"]["these"]
+            queries = [
+                thesis,
+                " ".join(these["topics"]),
+                " ".join(these["measures"]),
+                " ".join(these["goals"]),
+                " ".join(these["implications"]),
+                these["opposing"],
+            ]
+            retrievals[these["these"]["id"]] = retrieve_and_rerank(vector_index, bm25_retriever, queries, these)  # type: ignore
+        with open(filename, "w", encoding="utf-8") as f:
+            json.dump(retrievals, f, ensure_ascii=False, indent=4)
+
+    with open(filename, "r", encoding="utf-8") as f:
+        retrievals = json.load(f)
+    return retrievals
 
 
 def get_reranker() -> SentenceTransformerRerank:
