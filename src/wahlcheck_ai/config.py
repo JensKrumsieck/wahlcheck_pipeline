@@ -11,6 +11,7 @@ BUILD_DIR = ROOT / "build"
 EXTRACTED_DIR = BUILD_DIR / "extract"
 INDEX_DIR = BUILD_DIR / "index"
 RETRIEVAL_DIR = BUILD_DIR / "retrieval"
+RATING_DIR = BUILD_DIR / "rating"
 
 INPUT_DIR = ROOT / "input"
 THESES_JSON = INPUT_DIR / "fragen.json"

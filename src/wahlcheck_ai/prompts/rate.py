@@ -1,11 +1,13 @@
+import json
+
 from wahlcheck_ai.llm import chat_json
-from wahlcheck_ai.theses import load_theses
 
 SYSTEM_PROMPT = """You rate political statements based on excerpts from election programmes.
 
 You receive:
 1. A political statement 
 2. Several relevant excerpts from election programmes (all from the same programme)
+3. A Glossary of terms you might not know
 
 Your task is to determine whether the provided sources support the thesis, contradict it, or do not provide enough evidence to make a determination.
 
@@ -45,7 +47,7 @@ RATING_SCHEMA = {
 }
 
 
-def rate(these, belege: list, model: str):
+def rate(these, belege: list, glossary, model: str):
     user_prompt = f"""
     THESIS: 
     
@@ -55,6 +57,9 @@ def rate(these, belege: list, model: str):
     SOURCES:
     
     {"\n - ".join([f"ID {beleg["id"]}: __{beleg["text"]}__" for beleg in belege])}
+    
+    GLOSSARY:
+    {json.dumps(glossary)}
     """
 
     result = chat_json(
@@ -63,4 +68,4 @@ def rate(these, belege: list, model: str):
         user_prompt,
         RATING_SCHEMA,
     )
-    print(result)
+    return result
