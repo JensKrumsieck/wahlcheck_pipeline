@@ -28,10 +28,12 @@ Rating:
 Important rules:
 - Base your rating ONLY on the given material.
 - Do NOT invent statements, positions, or facts that are not present in the sources.
-- if there is an example given, the example is not part of the conditions to be met to support the statement
+- if there is an example given, the example (e.g. marked with "z.B.") is not part of the conditions to be met to support the statement 
+    (Example: "Stärkung des kommunalen Ordnungsdienstes und sichtbare Präsenz an bekannten Brennpunkten" 
+    would get a 1 (SUPPORT) for "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.")
 - Pay particular attention to negations, limitations, conditions, exceptions, and opposing priorities.
 - Do NOT use external information.
-- Check whether a statement is supported implicitely e.g. by supporting a superior concept
+- Check whether a statement is supported (Rating 1) implicitely e.g. by supporting a superior concept or expressing it in other words
 - Ignore formatting, HTML-comments and artifacts in the text snippets
 - `kommentar` requires you to give a short statement (1 sentence max) why you think it is or is not consensual
 - Prefer German!
@@ -50,6 +52,17 @@ JUDGING_SCHEMA = {
     "required": ["consens", "kommentar", "eigene_wertung"],
 }
 
+parties = {
+    "AFD": "Alternative für Deutschland (AfD)",
+    "CDU": "Christlich Demokratische Union (CDU)",
+    "SPD": "Sozialdemokratische Partei Deutschlands (SPD)",
+    "FDP": "Freie Demokratische Partei (FDP)",
+    "Volt": "Volt",
+    "LINKE": "Die Linke",
+    "GRUENE": "BÜNDNIS 90/DIE GRÜNEN (GRÜNE)",
+    "BSW": "Bündnis Sahra Wagenknecht (BSW)",
+}
+
 
 def rate(these, rating: dict, belege: list, glossary, party, model: str):
     user_prompt = f"""
@@ -58,7 +71,7 @@ def rate(these, rating: dict, belege: list, glossary, party, model: str):
     {these}
     
     
-    SOURCES ({party})
+    SOURCES ({parties[party]})
     {"\n - ".join(
         [f'ID {beleg["id"]}: __{beleg["text"]}__' for beleg in belege]
     )}

@@ -2,7 +2,7 @@ import json
 
 from wahlcheck_ai.llm import chat_json
 
-SYSTEM_PROMPT = """You rate political statements based on excerpts from election programmes.
+SYSTEM_PROMPT = """You are an expert political scientist. You rate political statements based on excerpts from election programmes.
 
 You receive:
 1. A political statement 
@@ -26,7 +26,9 @@ Important rules:
 - For a rating of 1 or -1, provide a short verbatim quote from the sources that supports the rating.
 - For a rating of 0, the quote may be an empty string.
 - Do NOT use your own political knowledge or external information.
-- if there is an example given, the example is not part of the conditions to be met to support the statement
+- if there is an example given, the example (e.g. marked with "z.B.") is not part of the conditions to be met to support the statement 
+    (Example: "Stärkung des kommunalen Ordnungsdienstes und sichtbare Präsenz an bekannten Brennpunkten" 
+    would get a 1 (SUPPORT) for "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.")
 - Ignore formatting, HTML-comments and artifacts in the text snippets
 - In `kommentar` do not talk about the quotes or "Belege", "Programme" or "Textstellen" or quote's index number, 
     rather use wordings from the text in quotation marks to explain the rating to a reader not having the quotes
