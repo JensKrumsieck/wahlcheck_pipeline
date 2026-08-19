@@ -5,7 +5,7 @@ SYSTEM_PROMPT = """You rate political statements based on excerpts from election
 
 You receive:
 1. A political statement 
-2. Several relevant excerpts from election programmes
+2. Several relevant excerpts from election programmes (all from the same programme)
 
 Your task is to determine whether the provided sources support the thesis, contradict it, or do not provide enough evidence to make a determination.
 
@@ -23,6 +23,9 @@ Important rules:
 - For a rating of 1 or -1, provide a short verbatim quote from the sources that supports the rating.
 - For a rating of 0, the quote may be an empty string.
 - Do NOT use your own political knowledge or external information.
+- Ignore formatting, HTML-comments and artifacts in the text snippets
+- In `kommentar` do not talk about the quotes index number, rather use wordings from the text in quotation marks
+- `zitat_nummer` is the quote's index given to you at its start
 - Prefer German!
 
 Answer as JSON
@@ -34,10 +37,11 @@ RATING_SCHEMA = {
     "properties": {
         "wertung": {"type": "integer", "enum": [-1, 0, 1]},
         "sicherheit": {"type": "string", "enum": ["hoch", "mittel", "niedrig"]},
-        "zitat": {"type": "string"},
+        "zitat": {"type": ["string", "null"]},
+        "zitat_nummer": {"type": ["integer", "null"]},
         "kommentar": {"type": "string"},
     },
-    "required": ["wertung", "sicherheit"],
+    "required": ["wertung", "sicherheit", "zitat", "zitat_nummer"],
 }
 
 
@@ -50,7 +54,7 @@ def rate(these, belege: list, model: str):
     
     SOURCES:
     
-    {"\n - ".join([f"{beleg["id"]}: {beleg["text"]}" for beleg in belege])}
+    {"\n - ".join([f"ID {beleg["id"]}: __{beleg["text"]}__" for beleg in belege])}
     """
 
     result = chat_json(

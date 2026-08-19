@@ -122,9 +122,15 @@ def read_document(filename: Path) -> Document:
         )
 
     window_size = 10
+    stride = 5
     blocks = []
 
-    for i in range(len(sentences) - window_size + 1):
+    last_start = max(len(sentences) - window_size, 0)
+    starts = list(range(0, last_start + 1, stride))
+    if starts[-1] != last_start:      # don't drop the tail
+        starts.append(last_start)
+
+    for block_id, i in enumerate(starts):
         window = sentences[i : i + window_size]
 
         headings = []
@@ -134,21 +140,17 @@ def read_document(filename: Path) -> Document:
                 headings.append(heading)
 
         text = " ".join(sentence["text"] for sentence in window)
-
         embedding_parts = [" > ".join(heading) for heading in headings]
-
         embedding_text = "\n".join(embedding_parts + [text])
 
-        blocks.append(
-            {
-                "id": i,
-                "sentence_ids": list(range(i, i + window_size)),
-                "pages": sorted({sentence["page"] for sentence in window}),
-                "text": text,
-                "headings": headings,
-                "embedding_text": embedding_text,
-            }
-        )
+        blocks.append({
+            "id": block_id,
+            "sentence_ids": list(range(i, i + len(window))),
+            "pages": sorted({s["page"] for s in window}),
+            "text": text,
+            "headings": headings,
+            "embedding_text": embedding_text,
+        })
     return Document(full_text, pages, sentences, blocks)
 
 

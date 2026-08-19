@@ -19,7 +19,7 @@ def main() -> None:
             for retrieval in retrievals[thesis_id]
             if retrieval["rerank_score"] > 0.05
         ]
-        rate.rate(theses[0]["these"]["these"], chosen_ones, "qwen3:8b")
+        rate.rate(theses[0]["these"]["these"], chosen_ones, "openwebui:GPT-OSS-120B")
 
 
 if __name__ == "__main__":
