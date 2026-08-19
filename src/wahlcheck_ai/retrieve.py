@@ -94,7 +94,7 @@ def retrieve_candidates(
 
 def rerank_candidates(nodes, these):
     reranker = get_reranker()
-    reranker.top_n = K_CANDIDATES
+    reranker.top_n = K_CANDIDATES # should be K_RERANK
     thesis = these["these"]["these"]
     top = reranker.postprocess_nodes(
         nodes,

@@ -73,7 +73,7 @@ def _rating_impl(thesis, retrievals, glossary, model: str):
     return {
         **rating,
         "consens": False,
-        "judge_bewertung": judge_rating["bewertung"],
+        "judge_bewertung": judge_rating["eigene_wertung"],
         "attempts": max_retries,
         "human_review": True,
     }
