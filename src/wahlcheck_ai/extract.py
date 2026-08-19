@@ -161,6 +161,8 @@ def _normalize(text: str):
             normalization="NFC",
         ),
     )
+    text = text.replace("<!-- Start of picture text -->", "")
+    text = text.replace("<!-- End of picture text -->", "")
     text = _translate(text, _GUILLEMETS)
     text = _translate(text, _WORD_HYPHENS)
     text = _translate(text, _SPACES)

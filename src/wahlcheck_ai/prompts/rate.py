@@ -17,6 +17,7 @@ Rating:
 - 0 = UNCLEAR: The sources do not contain a clear position on the statement or are insufficient to determine one.
 
 if -1 or 1 MUST give a short explaination on how the decision was made. Optional but nice to have if 0
+if rating is 0 `sicherheit` is always "niedrig"
 
 Important rules:
 - Base your rating ONLY on the provided sources.
@@ -26,7 +27,8 @@ Important rules:
 - For a rating of 0, the quote may be an empty string.
 - Do NOT use your own political knowledge or external information.
 - Ignore formatting, HTML-comments and artifacts in the text snippets
-- In `kommentar` do not talk about the quotes index number, rather use wordings from the text in quotation marks
+- In `kommentar` do not talk about the quotes or "Belege", "Programme" or "Textstellen" or quote's index number, 
+    rather use wordings from the text in quotation marks to explain the rating to a reader not having the quotes
 - `zitat_nummer` is the quote's index given to you at its start
 - Prefer German!
 
