@@ -12,7 +12,7 @@ def main() -> None:
         filename = DOCUMENTS_DIR / file
         vector_index, bm25_retriever = build_party_index(filename)
         retrievals = retrieve_for(filename, theses, vector_index, bm25_retriever)
-        ratings = rating(filename, theses, retrievals, "openwebui:GPT-OSS-120B")
+        #ratings = rating(filename, theses, retrievals, "openwebui:GPT-OSS-120B")
 
 
 if __name__ == "__main__":

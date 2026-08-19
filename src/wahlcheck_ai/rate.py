@@ -39,17 +39,26 @@ def rating(filename: Path, theses, retrievals, model: str):
 max_retries = 3
 
 
+CONFIDENCE_RATIO = 0.5
+MIN_CONFIDENT = 2
+FALLBACK_N = 25
+
+
+def _select_evidence(candidates: list) -> list:
+    if not candidates:
+        return candidates
+    top_score = max(c["rerank_score"] for c in candidates)
+    chosen = [c for c in candidates if c["rerank_score"] >= top_score * CONFIDENCE_RATIO]
+    if len(chosen) < MIN_CONFIDENT:
+        chosen = sorted(candidates, key=lambda c: -c["rerank_score"])[:FALLBACK_N]
+    return chosen
+
+
 def _rating_impl(thesis, retrievals, glossary, model: str):
     thesis_id = thesis["these"]["id"]
     quote = thesis["these"]["these"]
     print(f"{thesis_id}: {quote}")
-    chosen_ones = [
-        retrieval
-        for retrieval in retrievals[thesis_id]
-        if retrieval["rerank_score"] > 0.05
-    ]
-    if len(chosen_ones) < 2:
-        chosen_ones = retrievals[thesis_id][:10]
+    chosen_ones = _select_evidence(retrievals[thesis_id])
 
     rating = {}
     judge_rating = {}

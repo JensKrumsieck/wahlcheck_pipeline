@@ -12,7 +12,6 @@ from huggingface_hub.constants import HF_HUB_CACHE
 from tqdm import tqdm
 from wahlcheck_ai.config import K_PER_VARIANT, RETRIEVAL_DIR
 
-TOP_K = 8
 RERANK_MODEL = "BAAI/bge-reranker-v2-m3"
 K_RERANK = 25
 K_CANDIDATES = 100
@@ -94,7 +93,6 @@ def retrieve_candidates(
 
 def rerank_candidates(nodes, these):
     reranker = get_reranker()
-    reranker.top_n = K_CANDIDATES # should be K_RERANK
     thesis = these["these"]["these"]
     top = reranker.postprocess_nodes(
         nodes,
