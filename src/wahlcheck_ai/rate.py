@@ -1,5 +1,6 @@
 import json
 import os
+import random
 from pathlib import Path
 from typing import Counter
 from tqdm import tqdm
@@ -129,12 +130,14 @@ def _rating_impl(thesis, retrievals, glossary, party, model: str):
             chosen_ones = _merge_evidence(chosen_ones, blind, all_candidates)
             rating = rate.rate(quote, chosen_ones, glossary, model)
         else:
-            # reasoning gap: same evidence, different read - ask the rater to
-            # engage with the specific objection instead of re-rolling blind
-            print("Judge disagrees on the same evidence, asking rater to reconsider")
-            rating = rate.reconsider(
-                quote, chosen_ones, glossary, model, blind["kommentar"]
-            )
+            # reasoning gap: same evidence, different read. Neither `rating` nor
+            # `blind` gets to defer to the other by default - a neutral third
+            # opinion decides on the merits. Order is randomized so the arbiter
+            # prompt's A/B labeling can't leak into a position bias either.
+            print("Judge disagrees on the same evidence, arbitrating")
+            pair = [rating, blind]
+            random.shuffle(pair)
+            rating = judge.arbitrate(quote, all_candidates, pair[0], pair[1], glossary, model)
 
     # no consens reached after all retries = majority vote across attempts
     final_wertung = _majority_rating(history, blind)

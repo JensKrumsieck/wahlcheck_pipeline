@@ -161,6 +161,65 @@ COMPARE_SCHEMA = {
     "required": ["kommentar"],
 }
 
+ARBITRATE_SYSTEM_PROMPT = """You are an expert political scientist professor
+adjudicating a disagreement between two researchers.
+
+Two independent researchers rated the same political thesis against the same
+election programme excerpts and reached different ratings. Decide, strictly on the
+evidentiary rubric below, which rating the sources actually support.
+
+You receive:
+1. `these`: One political statement.
+2. `quellen`: Several relevant excerpts from one election programme.
+3. `bewertung_a` / `bewertung_b`: Two independently produced ratings and their
+   explanations. Their labeling as A or B carries NO meaning and does not indicate
+   which was produced first - do not favor one because of its position, and do not
+   average or split the difference between them.
+4. `glossar`: A glossary explaining terms that may be unfamiliar or ambiguous.
+
+Rating scale: `1` = SUPPORT, `-1` = OPPOSE, `0` = UNCLEAR.
+
+There are three levels of evidence:
+
+A. EXPLICIT - the source directly expresses support or opposition to the policy
+   described in the thesis.
+B. DIRECT IMPLICIT - the source does not mention the exact policy, but clearly
+   addresses the same policy instrument, mechanism, or type of intervention.
+C. INDIRECT / SPECULATIVE - the source expresses a general preference, objective or
+   principle from which the thesis could potentially be derived, but the connection
+   requires additional assumptions. This is NOT sufficient for `1` or `-1` - rate `0`.
+
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
+for citizens and businesses". This is DIRECT IMPLICIT evidence only against theses
+that themselves propose an economic or administrative burden. It is NOT sufficient
+evidence against a thesis proposing a specific, non-economic measure (a content-based
+ban, a symbolic policy, a values question) unless the source specifically addresses
+that measure.
+
+Decide independently, from the sources, which policy-mechanism match - if any - is
+actually established. Two disagreeing ratings are not by themselves evidence for a
+middle position: if NEITHER rating grounds its conclusion in a quote that clearly
+addresses the thesis's specific policy mechanism, the correct rating is `0`,
+regardless of what either researcher concluded. If exactly one rating grounds its
+conclusion in a quote that is genuinely on-mechanism, prefer that one. Only agree
+with a rating because its evidence and reasoning hold up - never merely because it
+was presented as the objection, or because it was listed first or second.
+
+Do not use external political knowledge. All conclusions must be grounded in the
+supplied sources.
+
+Output JSON:
+- `wertung`: `1`, `0`, or `-1`.
+- `sicherheit`: `"hoch"`, `"mittel"`, or `"niedrig"`.
+- `zitat`: A short verbatim quote supporting your rating (empty string if `wertung` is 0).
+- `zitat_nummer`: The ID of the quote used (null if `wertung` is 0).
+- `kommentar`: A short explanation of your decision, understandable to a reader who has not seen the sources.
+
+Prefer German.
+"""
+
+ARBITRATE_SCHEMA = EVALUATE_SCHEMA
+
 parties = {
     "AFD": "Alternative für Deutschland (AfD)",
     "CDU": "Christlich Demokratische Union (CDU)",
@@ -222,3 +281,38 @@ def compare(these, rating: dict, blind: dict, model: str) -> dict:
         "eigene_wertung": blind["wertung"],
         "kommentar": result["kommentar"],
     }
+
+
+def arbitrate(these, belege: list, verdict_a: dict, verdict_b: dict, glossary, model: str) -> dict:
+    """Neutral third opinion for a reasoning disagreement (same evidence, different
+    read). `verdict_a`/`verdict_b` should be passed in random order by the caller -
+    this function does not know or care which one is the original rater's and which
+    is the blind judge's, so it cannot default to either by position."""
+    user_prompt = f"""
+    THESIS:
+
+    {these}
+
+
+    SOURCES:
+    {"\n - ".join(
+        [f'ID {beleg["id"]}: __{beleg["text"]}__' for beleg in belege]
+    )}
+
+
+    BEWERTUNG_A:
+    RATING: {verdict_a["wertung"]} (Sicherheit: {verdict_a["sicherheit"]})
+    ZITAT: {verdict_a["zitat"]}
+    KOMMENTAR: {verdict_a["kommentar"]}
+
+    BEWERTUNG_B:
+    RATING: {verdict_b["wertung"]} (Sicherheit: {verdict_b["sicherheit"]})
+    ZITAT: {verdict_b["zitat"]}
+    KOMMENTAR: {verdict_b["kommentar"]}
+
+
+    GLOSSARY:
+    {json.dumps(glossary)}
+    """
+
+    return chat_json(model, [ARBITRATE_SYSTEM_PROMPT], user_prompt, ARBITRATE_SCHEMA)
