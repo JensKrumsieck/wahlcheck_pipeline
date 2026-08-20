@@ -136,7 +136,7 @@ def _rating_impl(thesis, retrievals, glossary, party, model: str):
             # prompt's A/B labeling can't leak into a position bias either.
             print("Judge disagrees on the same evidence, arbitrating")
             pair = [rating, blind]
-            random.shuffle(pair)
+            random.shuffle(pair) # DevSkim: ignore DS148264
             rating = judge.arbitrate(quote, all_candidates, pair[0], pair[1], glossary, model)
 
     # no consens reached after all retries = majority vote across attempts
