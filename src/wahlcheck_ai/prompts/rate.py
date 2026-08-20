@@ -75,6 +75,24 @@ Source: "Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit m
 The source expresses general fiscal discipline, but does not establish a position on municipal land acquisition.
 This is indirect/speculative evidence → 0.
 
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
+for citizens and businesses" (e.g. against extra costs, red tape or regulation).
+This refrain is DIRECT IMPLICIT evidence only against theses that themselves propose
+an economic or administrative burden (fees, mandatory quotas, extra requirements,
+taxes). It is NOT sufficient evidence against a thesis that proposes a specific,
+non-economic measure - such as a content-based ban, a symbolic policy, or a values
+question - unless the source specifically addresses that measure.
+
+Example:
+Thesis: "Die Stadt soll Werbung für die Bundeswehr auf städtischen Bussen verbieten."
+Source: "Braunschweig darf Bürger und Unternehmen nicht durch zusätzliche kommunale
+Vorgaben, Verbote oder Belastungen weiter unter Druck setzen."
+
+The source rejects new economic/administrative burdens on citizens and businesses.
+An advertising ban on public transport is not an economic burden on citizens or
+businesses - it is a content/values decision the source does not address.
+This is INDIRECT/SPECULATIVE → 0, even though both mention "Verbote".
+
 Reasoning procedure:
 
 1. Identify the essential policy mechanism of the thesis:
@@ -174,6 +192,46 @@ def rate(these, belege: list, glossary, model: str):
     
     GLOSSARY:
     {json.dumps(glossary)}
+    """
+
+    result = chat_json(
+        model,
+        [SYSTEM_PROMPT],
+        user_prompt,
+        RATING_SCHEMA,
+    )
+    return result
+
+
+def reconsider(these, belege: list, glossary, model: str, objection: str):
+    """Re-rates `these` given a specific objection raised by an independent
+    second reviewer who read the same thesis and sources. Reuses the same
+    rubric as `rate`, so the model may keep its original rating if the
+    objection does not hold up."""
+    user_prompt = f"""
+    THESIS:
+
+    {these}
+
+
+    SOURCES:
+
+    {"\n - ".join([f"ID {beleg["id"]}: __{beleg["text"]}__" for beleg in belege])}
+
+    GLOSSARY:
+    {json.dumps(glossary)}
+
+
+    A second, independent reviewer read the same thesis and sources and reached a
+    different reading:
+
+    {objection}
+
+    Reconsider your rating in light of this. If the objection identifies something
+    you missed or a mechanism mismatch you overlooked, update your rating
+    accordingly. If, after reconsidering, your original reading still holds, keep
+    your rating and explain in `kommentar` why the objection does not change the
+    conclusion.
     """
 
     result = chat_json(

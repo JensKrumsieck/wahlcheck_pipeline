@@ -59,54 +59,97 @@ def _select_evidence(candidates: list) -> list:
     return chosen
 
 
+def _merge_evidence(chosen_ones: list, blind: dict, all_candidates: list) -> list:
+    """Adds the source the blind judge cited to the rater's evidence set, if it
+    wasn't already in there. This is how a genuine evidence gap (the rater's
+    filtered set missed something) gets repaired, as opposed to re-arguing over
+    the same text."""
+    cited_id = blind.get("zitat_nummer")
+    if cited_id is None:
+        return chosen_ones
+    if any(str(c["id"]) == str(cited_id) for c in chosen_ones):
+        return chosen_ones
+    match = next((c for c in all_candidates if str(c["id"]) == str(cited_id)), None)
+    if match is None:
+        return chosen_ones
+    return chosen_ones + [match]
+
+
 def _rating_impl(thesis, retrievals, glossary, party, model: str):
     thesis_id = thesis["these"]["id"]
     quote = thesis["these"]["these"]
     print(f"{thesis_id}: {quote}")
-    chosen_ones = _select_evidence(retrievals[thesis_id])
+    all_candidates = retrievals[thesis_id]
+    chosen_ones = _select_evidence(all_candidates)
 
-    rating = {}
-    judge_rating = {}
+    rating = rate.rate(quote, chosen_ones, glossary, model)
+    if rating["wertung"] == 0 and len(chosen_ones) != len(all_candidates):
+        # retry with all candidates
+        chosen_ones = all_candidates
+        rating = rate.rate(quote, chosen_ones, glossary, model)
+
+    # One blind, independent second opinion over the FULL candidate pool -
+    # deliberately never shown `rating`, and not limited to the rater's
+    # filtered evidence, so it can catch both a misread and evidence the
+    # rater's filter dropped. Computed once; the loop below only reconciles
+    # `rating` against this fixed reference point.
+    blind = judge.evaluate(quote, all_candidates, glossary, party, model)
+
     history = []
     for attempt in range(1, max_retries + 1):
         print(f"Attempt {attempt}/{max_retries}")
-        rating = rate.rate(quote, chosen_ones, glossary, model)
-        if rating["wertung"] == 0 and len(chosen_ones) != len(retrievals[thesis_id]):
-            # retry with all candidates
-            chosen_ones = retrievals[thesis_id]
-            rating = rate.rate(quote, chosen_ones, glossary, model)
+        verdict = judge.compare(quote, rating, blind, model)
+        history.append({"attempt": attempt, "rating": rating, "verdict": verdict})
+        print(
+            f"Rating: {rating['wertung']} | Blind: {blind['wertung']} | "
+            f"Konsens: {verdict['consens']}"
+        )
 
-        judge_rating = judge.rate(quote, rating, chosen_ones, glossary, party, model)
-        current_attempt = {"attempt": attempt, "rating": rating, "judge": judge_rating}
-        history.append(current_attempt)
-        print(f"Rating: {rating['wertung']} | " f"Judge: {judge_rating['consens']}")
-
-        if not judge_rating["consens"]:
-            print(f"Judge: {judge_rating['eigene_wertung']}")
-            chosen_ones = retrievals[thesis_id]  # extend set if judge is not consensual
-
-        if judge_rating["consens"]:
+        if verdict["consens"]:
             return {
                 **rating,
                 "consens": True,
-                "judge_bewertung": judge_rating["eigene_wertung"],
+                "judge_bewertung": blind["wertung"],
                 "attempts": attempt,
-                "human_review": False,
+                # even though they now agree, flag it if the rater had to
+                # revise its first answer to get there
+                "human_review": attempt > 1,
             }
-    # no consens reached = majority vote
-    final_wertung = _majority_rating(history, judge_rating)
+
+        if attempt == max_retries:
+            break
+
+        cited_id = blind.get("zitat_nummer")
+        already_had_it = cited_id is not None and any(
+            str(c["id"]) == str(cited_id) for c in chosen_ones
+        )
+        if cited_id is not None and not already_had_it:
+            # evidence gap: the blind pass found something the rater didn't have
+            print(f"Judge cited new evidence: {cited_id}")
+            chosen_ones = _merge_evidence(chosen_ones, blind, all_candidates)
+            rating = rate.rate(quote, chosen_ones, glossary, model)
+        else:
+            # reasoning gap: same evidence, different read - ask the rater to
+            # engage with the specific objection instead of re-rolling blind
+            print("Judge disagrees on the same evidence, asking rater to reconsider")
+            rating = rate.reconsider(
+                quote, chosen_ones, glossary, model, blind["kommentar"]
+            )
+
+    # no consens reached after all retries = majority vote across attempts
+    final_wertung = _majority_rating(history, blind)
 
     return {
         **rating,
         "wertung": final_wertung,
         "consens": False,
-        "judge_bewertung": judge_rating["eigene_wertung"],
+        "judge_bewertung": blind["wertung"],
         "attempts": max_retries,
         "human_review": True,
     }
 
 
-def _majority_rating(history, judge_rating):
+def _majority_rating(history, blind):
     ratings = [x["rating"]["wertung"] for x in history]
     counts = Counter(ratings)
 
@@ -117,8 +160,8 @@ def _majority_rating(history, judge_rating):
     if len(winners) == 1:
         return winners[0]
 
-    # Tie -> judge breaks it
-    judge_vote = judge_rating["eigene_wertung"]
+    # Tie -> blind judge breaks it
+    judge_vote = blind["wertung"]
 
     if judge_vote in winners:
         return judge_vote

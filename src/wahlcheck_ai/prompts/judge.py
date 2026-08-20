@@ -2,25 +2,18 @@ import json
 
 from wahlcheck_ai.llm import chat_json
 
-SYSTEM_PROMPT = """You are an expert political scientist professor conducting 
-quality control for a scientific research project.
+EVALUATE_SYSTEM_PROMPT = """You are an expert political scientist professor conducting
+independent quality control for a scientific research project.
 
-A first researcher has rated a political statement against excerpts from an 
-election programme. Your task is to independently reproduce the rating and then 
-determine whether both ratings agree.
+A separate researcher is independently rating political statements against excerpts
+from an election programme. You perform your OWN independent rating of the same
+thesis and sources. You do NOT see the other researcher's rating - it is compared
+to yours only after you have answered.
 
 You receive:
 1. `these`: One political statement.
 2. `quellen`: Several relevant excerpts from one election programme.
-3. `erste_bewertung`: The first researcher's rating, including their explanation.
-4. `glossar`: A glossary explaining terms that may be unfamiliar or ambiguous.
-
-Your task has TWO strictly separate steps.
-
-## STEP 1 — Independent evaluation
-Ignore the first researcher's rating and explanation initially.
-Independently determine whether the election programme supports, 
-opposes, or does not provide sufficient evidence for the thesis.
+3. `glossar`: A glossary explaining terms that may be unfamiliar or ambiguous.
 
 First identify the essential policy mechanism:
 - What action is proposed?
@@ -79,64 +72,93 @@ Source: "Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit m
 The source expresses general fiscal discipline, but does not establish a position on municipal land acquisition.
 This is indirect/speculative evidence → 0.
 
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
+for citizens and businesses" (e.g. against extra costs, red tape or regulation).
+This refrain is DIRECT IMPLICIT evidence only against theses that themselves propose
+an economic or administrative burden (fees, mandatory quotas, extra requirements,
+taxes). It is NOT sufficient evidence against a thesis that proposes a specific,
+non-economic measure - such as a content-based ban, a symbolic policy, or a values
+question - unless the source specifically addresses that measure.
+
+Example:
+Thesis: "Die Stadt soll Werbung für die Bundeswehr auf städtischen Bussen verbieten."
+Source: "Braunschweig darf Bürger und Unternehmen nicht durch zusätzliche kommunale
+Vorgaben, Verbote oder Belastungen weiter unter Druck setzen."
+
+The source rejects new economic/administrative burdens on citizens and businesses.
+An advertising ban on public transport is not an economic burden on citizens or
+businesses - it is a content/values decision the source does not address.
+This is INDIRECT/SPECULATIVE → 0, even though both mention "Verbote".
+
 For implicit evidence:
 A source may support or oppose a thesis without using the same terminology.
-Implicit support exists when a broader or equivalent principle clearly favors 
+Implicit support exists when a broader or equivalent principle clearly favors
 the policy mechanism proposed by the thesis.
 
-Implicit opposition exists when a source rejects, criticizes or seeks to prevent 
+Implicit opposition exists when a source rejects, criticizes or seeks to prevent
 the type of policy mechanism proposed by the thesis.
 
 Do not infer a position merely because the source and thesis concern the same topic.
 
 A general political goal does not automatically imply support for a specific policy instrument.
 
-Example:
-Thesis: "Der Pflichtanteil für Sozialwohnungen bei Neubauprojekten soll erhöht werden."
-
-Source:
-"Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch immer neue Auflagen, Vorgaben 
-und Kostentreiber zusätzlich belasten."
-
-The thesis proposes increasing a mandatory requirement for new construction.
-The source rejects additional requirements, regulations and cost drivers affecting construction.
-Therefore the source implicitly opposes the thesis -> `-1`.
-
 Do not use external political knowledge.
-
-## STEP 2 — Compare ratings
-
-Only after completing the independent evaluation, compare your rating with `wertung`.
-
-Set:
-`consens = true`
-ONLY when your independently determined rating is exactly equal to the first rating.
-
-Otherwise:
-`consens = false`.
-
-Do not change your independent rating to achieve consensus.
-The first researcher's explanation must NOT influence your independent rating. It may only be 
-considered after your independent rating has been determined, when explaining a disagreement.
+All conclusions must be grounded in the supplied sources.
 
 Output JSON:
 
-- `eigene_bewertung`: Your independently determined rating (`1`, `0`, or `-1`).
-- `consens`: `true` or `false`.
-- `kommentar`: Maximum one sentence explaining why the ratings agree or disagree.
+- `wertung`: Your independently determined rating (`1`, `0`, or `-1`).
+- `sicherheit`: `"hoch"`, `"mittel"`, or `"niedrig"`.
+- `zitat`: A short verbatim quote supporting your rating (empty string if `wertung` is 0).
+- `zitat_nummer`: The ID of the quote used (null if `wertung` is 0).
+- `kommentar`: A short explanation of your reasoning, understandable to a reader who has not seen the sources.
 
 Prefer German.
 """
 
+COMPARE_SYSTEM_PROMPT = """You are an expert political scientist professor writing a
+short quality-control note.
 
-JUDGING_SCHEMA = {
+You receive two independently produced ratings of the same political thesis against
+the same election programme excerpts:
+1. `erste_bewertung`: the first researcher's rating and explanation.
+2. `zweite_bewertung`: a second researcher's rating and explanation, produced without
+   seeing the first researcher's answer.
+
+Both used the same three-point scale (`1` = support, `0` = unclear, `-1` = oppose).
+
+Task:
+Write ONE sentence in German explaining, for a reader who has not seen the excerpts,
+why the two ratings agree or disagree. If they disagree, name the concrete
+difference in interpretation (e.g. a different quote used, a different reading of
+the same quote, or one rating treating a general principle as sufficient where the
+other requires an exact mechanism match).
+
+Do not change either rating. Do not decide who is right.
+
+Output JSON:
+- `kommentar`: One sentence.
+"""
+
+
+EVALUATE_SCHEMA = {
     "type": "object",
     "properties": {
-        "consens": {"type": "boolean"},
+        "wertung": {"type": "integer", "enum": [-1, 0, 1]},
+        "sicherheit": {"type": "string", "enum": ["hoch", "mittel", "niedrig"]},
+        "zitat": {"type": ["string", "null"]},
+        "zitat_nummer": {"type": ["integer", "null"]},
         "kommentar": {"type": "string"},
-        "eigene_wertung": {"type": "integer", "enum": [-1, 0, 1]},
     },
-    "required": ["consens", "kommentar", "eigene_wertung"],
+    "required": ["wertung", "sicherheit", "zitat", "zitat_nummer", "kommentar"],
+}
+
+COMPARE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "kommentar": {"type": "string"},
+    },
+    "required": ["kommentar"],
 }
 
 parties = {
@@ -151,33 +173,52 @@ parties = {
 }
 
 
-def rate(these, rating: dict, belege: list, glossary, party, model: str):
+def evaluate(these, belege: list, glossary, party, model: str) -> dict:
+    """Blind, independent rating of `these` against `belege`. Never sees the
+    first researcher's rating, so it cannot anchor on it."""
     user_prompt = f"""
-    THESIS: 
-    
+    THESIS:
+
     {these}
-    
-    
+
+
     SOURCES ({parties[party]})
     {"\n - ".join(
         [f'ID {beleg["id"]}: __{beleg["text"]}__' for beleg in belege]
     )}
 
-    
-    _____ RATING _____
-    RATING: {rating["wertung"]} with confidence {rating["sicherheit"]}
-    QUOTE: {rating["zitat"]}
-    COMMENT: {rating["kommentar"]}
-    ___________________
-    
+
     GLOSSARY:
     {json.dumps(glossary)}
     """
 
-    result = chat_json(
-        model,
-        [SYSTEM_PROMPT],
-        user_prompt,
-        JUDGING_SCHEMA,
-    )
-    return result
+    return chat_json(model, [EVALUATE_SYSTEM_PROMPT], user_prompt, EVALUATE_SCHEMA)
+
+
+def compare(these, rating: dict, blind: dict, model: str) -> dict:
+    """Compares an already-produced rating against a blind, independent one.
+    `consens` is decided in code (exact match on `wertung`), not by the LLM -
+    the model only supplies the human-readable explanation."""
+    user_prompt = f"""
+    THESIS:
+
+    {these}
+
+
+    ERSTE_BEWERTUNG:
+    RATING: {rating["wertung"]} (Sicherheit: {rating["sicherheit"]})
+    ZITAT: {rating["zitat"]}
+    KOMMENTAR: {rating["kommentar"]}
+
+    ZWEITE_BEWERTUNG:
+    RATING: {blind["wertung"]} (Sicherheit: {blind["sicherheit"]})
+    ZITAT: {blind["zitat"]}
+    KOMMENTAR: {blind["kommentar"]}
+    """
+
+    result = chat_json(model, [COMPARE_SYSTEM_PROMPT], user_prompt, COMPARE_SCHEMA)
+    return {
+        "consens": rating["wertung"] == blind["wertung"],
+        "eigene_wertung": blind["wertung"],
+        "kommentar": result["kommentar"],
+    }
