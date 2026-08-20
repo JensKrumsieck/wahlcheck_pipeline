@@ -72,15 +72,45 @@ Source: "Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit m
 The source expresses general fiscal discipline, but does not establish a position on municipal land acquisition.
 This is indirect/speculative evidence → 0.
 
-A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
-for citizens and businesses" (e.g. against extra costs, red tape or regulation).
-This refrain is DIRECT IMPLICIT evidence only against theses that themselves propose
-an economic or administrative burden (fees, mandatory quotas, extra requirements,
-taxes). It is NOT sufficient evidence against a thesis that proposes a specific,
-non-economic measure - such as a content-based ban, a symbolic policy, or a values
-question - unless the source specifically addresses that measure.
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements, bans
+or costs for citizens, owners or businesses" (e.g. against extra costs, red tape or
+regulation). Before treating such a refrain as DIRECT IMPLICIT evidence, BOTH of the
+following must hold:
 
-Example:
+- AFFECTED PARTY: the thesis must place its burden on the SAME party the source
+  protects. A source shielding private citizens, owners, tenants or businesses does
+  NOT speak to the city's own spending, subsidies, or its own property/infrastructure
+  decisions - those affect the municipal budget, not a private party.
+- DOMAIN: the source's stated policy area must match, or clearly encompass, the
+  thesis's domain. A refrain scoped to one section of the programme (e.g. housing,
+  energy, migration) does not transfer to an unrelated one (e.g. school meals,
+  digitalization, culture) just because both could be called a "new burden" or
+  "new cost" in the abstract.
+
+If EITHER check fails, this is INDIRECT/SPECULATIVE → 0, even if the vocabulary
+overlaps (e.g. both mention "belasten", "Verbot", or "Kosten").
+
+Example (party mismatch):
+Thesis: "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen."
+Source: "Wir lehnen eine kommunale Politik ab, die Bürger, Eigentümer, Mieter oder Unternehmen durch zusätzliche Vorgaben ... belastet."
+
+The thesis proposes the CITY installing panels on its OWN property - not a new
+obligation imposed on private citizens, owners or businesses. The source protects
+private parties from new burdens; it says nothing about the city's own
+infrastructure spending.
+This is INDIRECT/SPECULATIVE → 0, even though both concern "Belastung".
+
+Example (domain mismatch):
+Thesis: "An allen Schulen und Kitas soll es kostenloses Mittagessen geben."
+Source: "Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch immer neue Auflagen, Vorgaben und Kostentreiber zusätzlich belasten."
+
+The source specifically objects to new requirements in construction/housing/property
+policy. A free school-meal programme is a completely different policy domain
+(education/social policy, not construction).
+This is INDIRECT/SPECULATIVE → 0 - a refrain scoped to one domain does not transfer
+to an unrelated domain merely because both could be called a "new burden".
+
+Example (non-economic measure - a special case of the same check):
 Thesis: "Die Stadt soll Werbung für die Bundeswehr auf städtischen Bussen verbieten."
 Source: "Braunschweig darf Bürger und Unternehmen nicht durch zusätzliche kommunale
 Vorgaben, Verbote oder Belastungen weiter unter Druck setzen."
@@ -189,12 +219,37 @@ C. INDIRECT / SPECULATIVE - the source expresses a general preference, objective
    principle from which the thesis could potentially be derived, but the connection
    requires additional assumptions. This is NOT sufficient for `1` or `-1` - rate `0`.
 
-A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
-for citizens and businesses". This is DIRECT IMPLICIT evidence only against theses
-that themselves propose an economic or administrative burden. It is NOT sufficient
-evidence against a thesis proposing a specific, non-economic measure (a content-based
-ban, a symbolic policy, a values question) unless the source specifically addresses
-that measure.
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements, bans
+or costs for citizens, owners or businesses". Before treating such a refrain as
+DIRECT IMPLICIT evidence, BOTH of the following must hold:
+
+- AFFECTED PARTY: the thesis must place its burden on the SAME party the source
+  protects. A source shielding private citizens, owners, tenants or businesses does
+  NOT speak to the city's own spending, subsidies, or its own property/infrastructure
+  decisions - those affect the municipal budget, not a private party.
+- DOMAIN: the source's stated policy area must match, or clearly encompass, the
+  thesis's domain. A refrain scoped to one section of the programme (e.g. housing,
+  energy, migration) does not transfer to an unrelated one (e.g. school meals,
+  digitalization, culture) just because both could be called a "new burden" or
+  "new cost" in the abstract.
+
+If EITHER check fails, this is INDIRECT/SPECULATIVE → 0, even if the vocabulary
+overlaps (e.g. both mention "belasten", "Verbot", or "Kosten"). This also covers a
+thesis proposing a specific, non-economic measure - such as a content-based ban, a
+symbolic policy, or a values question - which a generic economic-burden refrain does
+not address either.
+
+Example (party mismatch): thesis = city installing solar panels on its OWN roofs and
+parking lots; source = a refrain protecting "Bürger, Eigentümer, Mieter oder
+Unternehmen" from new burdens. The city acting on its own property is not a burden on
+private parties → 0, even though both concern "Belastung".
+
+Example (domain mismatch): thesis = free school lunches; source = "Kommunale Politik
+darf Bauen, Wohnen und Eigentum nicht durch immer neue Auflagen ... belasten." A
+refrain scoped to construction/housing policy does not transfer to school meals → 0.
+
+If a rating relies on this kind of generic refrain without both checks holding, that
+rating is the flawed one, regardless of which letter it is labeled.
 
 Decide independently, from the sources, which policy-mechanism match - if any - is
 actually established. Two disagreeing ratings are not by themselves evidence for a

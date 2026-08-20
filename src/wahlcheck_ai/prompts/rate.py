@@ -75,15 +75,45 @@ Source: "Jede Ausgabe muss sich an Nutzen, Notwendigkeit und Verantwortbarkeit m
 The source expresses general fiscal discipline, but does not establish a position on municipal land acquisition.
 This is indirect/speculative evidence → 0.
 
-A recurring trap is a GENERIC refrain that rejects "new burdens, requirements or bans
-for citizens and businesses" (e.g. against extra costs, red tape or regulation).
-This refrain is DIRECT IMPLICIT evidence only against theses that themselves propose
-an economic or administrative burden (fees, mandatory quotas, extra requirements,
-taxes). It is NOT sufficient evidence against a thesis that proposes a specific,
-non-economic measure - such as a content-based ban, a symbolic policy, or a values
-question - unless the source specifically addresses that measure.
+A recurring trap is a GENERIC refrain that rejects "new burdens, requirements, bans
+or costs for citizens, owners or businesses" (e.g. against extra costs, red tape or
+regulation). Before treating such a refrain as DIRECT IMPLICIT evidence, BOTH of the
+following must hold:
 
-Example:
+- AFFECTED PARTY: the thesis must place its burden on the SAME party the source
+  protects. A source shielding private citizens, owners, tenants or businesses does
+  NOT speak to the city's own spending, subsidies, or its own property/infrastructure
+  decisions - those affect the municipal budget, not a private party.
+- DOMAIN: the source's stated policy area must match, or clearly encompass, the
+  thesis's domain. A refrain scoped to one section of the programme (e.g. housing,
+  energy, migration) does not transfer to an unrelated one (e.g. school meals,
+  digitalization, culture) just because both could be called a "new burden" or
+  "new cost" in the abstract.
+
+If EITHER check fails, this is INDIRECT/SPECULATIVE → 0, even if the vocabulary
+overlaps (e.g. both mention "belasten", "Verbot", or "Kosten").
+
+Example (party mismatch):
+Thesis: "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen."
+Source: "Wir lehnen eine kommunale Politik ab, die Bürger, Eigentümer, Mieter oder Unternehmen durch zusätzliche Vorgaben ... belastet."
+
+The thesis proposes the CITY installing panels on its OWN property - not a new
+obligation imposed on private citizens, owners or businesses. The source protects
+private parties from new burdens; it says nothing about the city's own
+infrastructure spending.
+This is INDIRECT/SPECULATIVE → 0, even though both concern "Belastung".
+
+Example (domain mismatch):
+Thesis: "An allen Schulen und Kitas soll es kostenloses Mittagessen geben."
+Source: "Kommunale Politik darf Bauen, Wohnen und Eigentum nicht durch immer neue Auflagen, Vorgaben und Kostentreiber zusätzlich belasten."
+
+The source specifically objects to new requirements in construction/housing/property
+policy. A free school-meal programme is a completely different policy domain
+(education/social policy, not construction).
+This is INDIRECT/SPECULATIVE → 0 - a refrain scoped to one domain does not transfer
+to an unrelated domain merely because both could be called a "new burden".
+
+Example (non-economic measure - a special case of the same check):
 Thesis: "Die Stadt soll Werbung für die Bundeswehr auf städtischen Bussen verbieten."
 Source: "Braunschweig darf Bürger und Unternehmen nicht durch zusätzliche kommunale
 Vorgaben, Verbote oder Belastungen weiter unter Druck setzen."
