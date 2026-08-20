@@ -7,6 +7,15 @@ from wahlcheck_ai.retrieve import retrieve_for
 
 
 def main() -> None:
+    print(r"""
+ _    _       _     _      _               _    
+| |  | |     | |   | |    | |             | |   
+| |  | | __ _| |__ | | ___| |__   ___  ___| | __
+| |/\| |/ _` | '_ \| |/ __| '_ \ / _ \/ __| |/ /
+\  /\  / (_| | | | | | (__| | | |  __/ (__|   < 
+ \/  \/ \__,_|_| |_|_|\___|_| |_|\___|\___|_|\_\
+                                                
+                                                """)
     theses = expansion.expand_queries("openwebui:GPT-OSS-120B")
     for file in glob("*.pdf", root_dir=DOCUMENTS_DIR):
         filename = DOCUMENTS_DIR / file
@@ -16,4 +25,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+
     main()

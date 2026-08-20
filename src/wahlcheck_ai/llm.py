@@ -38,7 +38,7 @@ def chat_json(
     system_prompts: list[str],
     user_prompt: str,
     schema: dict,
-    num_ctx: int = 8192,
+    num_ctx: int = 8192*2,
 ) -> dict:
     messages = [
         {"role": "system", "content": system_prompt} for system_prompt in system_prompts
