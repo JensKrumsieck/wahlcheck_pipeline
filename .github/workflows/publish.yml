@@ -17,8 +17,11 @@ jobs:
 
       - name: Create ZIP
         run: |
-          cd build/antworten
-          zip -r ../../wahlcheck-antworten.zip .
+          mkdir export
+          cp -r build/antworten ./export/
+          cp -r input ./export/
+          cd export
+          zip -r ../wahlcheck-antworten.zip .
 
       - name: Upload ZIP to release
         uses: softprops/action-gh-release@v2
