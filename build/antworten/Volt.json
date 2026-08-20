@@ -264,11 +264,11 @@
   {
     "these": "Der Zentrale Ordnungsdienst (ZOD) soll mehr Befugnisse (z.B. unmittelbarer Zwang) bekommen.",
     "partei": "Volt",
-    "wertung": -1,
+    "wertung": 0,
     "sicherheit": "hoch",
     "zitat": "… wir setzen auf Bürgernähe und Prävention statt auf reine Kontrolle.",
     "seite": 35,
-    "kommentar": "Die Quelle erwähnt ausdrücklich, dass die kommunalen Ordnungsdienste zwar gestärkt werden sollen, dabei aber auf „Prävention“ und Bürgernähe statt auf „reine Kontrolle“ gesetzt wird. Das ist ein direkter impliziter Widerspruch zur These, die einen Ausbau von ZOD‑Befugnissen (z. B. unmittelbarer Zwang) fordert, weil damit die Kontrolle intensiviert würde. Die Aussage bezieht sich auf denselben Politikbereich (Kommunale Ordnungsdienste) und adressiert das gleiche Instrument der Durchsetzung, sodass sie als klare Opposition zu bewerten ist.",
+    "kommentar": "Die Quelle erwähnt ausdrücklich, dass die kommunalen Ordnungsdienste zwar gestärkt werden sollen, dabei aber auf „Prävention“ und Bürgernähe statt auf „reine Kontrolle“ gesetzt wird. Die Aussage lässt sich nicht abschließend bewerten.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -279,7 +279,8 @@
       "volltext_gegenprobe": "n/a",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }
@@ -347,11 +348,11 @@
   {
     "these": "Das Städtische Klinikum darf nicht privatisiert werden.",
     "partei": "Volt",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Die vorliegenden Programmabschnitte betonen den Ausbau und die Stärkung des städtischen Klinikums sowie die Sicherstellung einer guten Gesundheitsversorgung, erwähnen jedoch weder eine Ablehnung noch eine Befürwortung einer Privatisierung. Ohne eine klare Aussage zum Verbot von Privatangelagen fehlt die notwendige Evidenz, die den Standpunkt \"Das Klinikum darf nicht privatisiert werden\" eindeutig zu unterstützen oder abzulehnen.",
+    "zitat": "Ein modernes Klinikum ist für uns ein zentraler Pfeiler der professionellen Gesundheitsversorgung in unserer Region. Daher unterstützen wir den Um- und Ausbau des Braunschweiger Klinikums zu einem Zentralklinikum, das allen Bürger*innen medizinische Leistungen auf höchstem Niveau anbieten kann",
+    "seite": 27,
+    "kommentar": "Die vorliegenden Programmabschnitte betonen den Ausbau und die Stärkung des städtischen Klinikums sowie die Sicherstellung einer guten Gesundheitsversorgung, erwähnen jedoch weder eine Ablehnung noch eine Befürwortung einer Privatisierung. Es ist dennoch implizit davon auszugehene, dass diese befürwortet wird.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -360,7 +361,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
@@ -434,7 +437,7 @@
     "sicherheit": "mittel",
     "zitat": "Queersensible psychologische Beratung soll verstärkt gefördert werden.",
     "seite": 27,
-    "kommentar": "Die Programmtexte (z. B. ID 94, 93, 95) befürworten allgemein queersensible, niedrigschwellige Beratungs‑ und Psychologiedienste, erwähnen aber weder eine konkrete Fortzahlung der Finanzierung einer Trans*-Beratungsstelle noch einen Zeitraum über das Jahr 2028 hinaus. Ohne explizite oder direkt implizite Aussage zum Finanzierungszeitpunkt kann nicht eindeutig gesagt werden, dass die Partei die Fortführung der Finanzierung nach 2028 unterstützt – die Evidenz bleibt daher unklar.",
+    "kommentar": "Die Programmtexte befürworten allgemein queersensible, niedrigschwellige Beratungs‑ und Psychologiedienste, erwähnen aber weder eine konkrete Fortzahlung der Finanzierung einer Trans*-Beratungsstelle noch einen Zeitraum über das Jahr 2028 hinaus. Ohne explizite oder direkt implizite Aussage zum Finanzierungszeitpunkt kann nicht eindeutig gesagt werden, dass die Partei die Fortführung der Finanzierung nach 2028 unterstützt – die Evidenz bleibt daher unklar.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -599,11 +602,11 @@
   {
     "these": "Braunschweig soll zusätzliche Plätze an Integrierten Gesamtschulen (IGS) schaffen, um der hohen Nachfrage gerecht zu werden.",
     "partei": "Volt",
-    "wertung": 1,
+    "wertung": 0,
     "sicherheit": "hoch",
-    "zitat": "Temporäre Pop‑up‑Schulen einsetzen: Eine Reserve an Schulcontainern für schnelle und unbürokratische Maßnahmen bei Raumnot.",
-    "seite": 9,
-    "kommentar": "Die Quelle 23 nennt ausdrücklich den Einsatz von Schulcontainern als schnelle Lösung bei Raumnot. Damit wird ein konkretes Instrument zur Schaffung zusätzlicher Schulplätze genannt, das dem gewünschten Ziel – mehr Plätze an Schulen (insbesondere bei hoher Nachfrage) – entspricht, auch wenn nicht explizit IGS genannt werden. Dies ist ein direkt implizites Beleg für die Unterstützung der These.",
+    "zitat": "",
+    "seite": null,
+    "kommentar": "Keine Aussage zu integrierten Gesamtschulen.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -613,7 +616,8 @@
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
       "flags": [
-        "human_review"
+        "human_review",
+        "reviewed"
       ],
       "prioritaet": 1
     }

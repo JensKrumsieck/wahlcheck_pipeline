@@ -635,10 +635,10 @@
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
     "partei": "Linke",
     "wertung": 1,
-    "sicherheit": "mittel",
+    "sicherheit": "niedrig",
     "zitat": "Mehr Personal wie multiprofessionelle Teams, Klassenassistenzen, Dolmetschende, Schulsozialarbeit sowie Lernzeiten, in denen alle Kinder in Kleingruppen gefördert und gefordert werden, sind vorhanden.",
     "seite": 24,
-    "kommentar": "Die Programmabschnitte erwähnen Schulsozialarbeit als Teil multiprofessioneller Teams (z.B. ID 80, 83, 84), jedoch ohne Hinweis darauf, dass an **jeder** Schule mindestens eine feste Stelle eingerichtet werden muss. Es fehlt sowohl eine explizite Formulierung als auch ein klar impliziter Hinweis, der eindeutig die flächendeckende Verpflichtung für jede einzelne Schule belegt. Daher lässt sich aus den Quellen keine eindeutige Unterstützung bzw. Ablehnung der These ableiten.",
+    "kommentar": "Die Programmabschnitte erwähnen Schulsozialarbeit als Teil multiprofessioneller Teams, dies könnte als Zustimmung gewertet werden.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -649,7 +649,8 @@
       "volltext_gegenprobe": "bestaetigt",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }

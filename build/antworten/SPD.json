@@ -3,7 +3,7 @@
     "these": "Der Autoverkehr in der Innenstadt soll zugunsten von Rad- und Busverkehr eingeschränkt werden.",
     "partei": "SPD",
     "wertung": 1,
-    "sicherheit": "hoch",
+    "sicherheit": "mittel",
     "zitat": "Die **Verkehrsberuhigung im Magniviertel** steht exemplarisch für eine Verringerung des Parksuch- und Durchgangverkehrs und für eine gestalterische Aufwertung vorhandener Nutzungsflächen.",
     "seite": 10,
     "kommentar": "Die Programmtexte fordern gezielte Verkehrsberuhigung, wodurch der Durchgangs‑ und Suchverkehr von Autos reduziert wird. Gleichzeitig wird ein starker Fokus auf den Ausbau von Rad‑ und ÖPNV‑Angeboten gelegt, was die Einschränkung des Autoverkehrs zugunsten von Rad‑ und Busverkehr ausdrücklich unterstützt.",
@@ -15,7 +15,9 @@
       "retrieval_score": 0.522207498550415,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
@@ -128,12 +130,11 @@
   {
     "these": "Auf möglichst allen geeigneten städtischen Dächern und Parkplätzen sollen Solaranlagen entstehen.",
     "partei": "SPD",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "mittel",
     "zitat": "Klimaschutz im Bau soll alltagstauglich werden – mit der gezielten Wärmeplanung für unsere Kommune, dem Einsatz der Städtischen Energiegenossenschaft und dem **Ausbau von Photovoltaik auf den Dächern städtischer Gebäude**.",
     "seite": 4,
-    "kommentar": "Die Quellen (z. B. ID 69, ID 7, ID 8) befürworten eindeutig den Ausbau von Photovoltaik auf städtischen Dächern, doch sie erwähnen keine Solaranlagen auf städtischen Parkplätzen. Da die These sowohl Dächer als auch Parkplätze umfasst, fehlt ein klarer Hinweis darauf, dass die Stadt beide Flächenarten installieren will. Ohne diese Information lässt sich nicht eindeutig feststellen, dass die Quelle die komplette These unterstützt, weshalb die Bewertung „unklar“ (0) ist.",
-    "modell": "openwebui:GPT-OSS-120B",
+    "kommentar": "Die Quellen befürworten eindeutig den Ausbau von Photovoltaik auf städtischen Dächern, doch sie erwähnen keine Solaranlagen auf städtischen Parkplätzen. Da die These sowohl Dächer als auch Parkplätze umfasst, fehlt ein klarer Hinweis darauf, dass die Stadt beide Flächenarten installieren will.",
     "eingelesen": "2026-08-19",
     "pruefung": {
       "zitat_verifiziert": true,
@@ -143,7 +144,8 @@
       "volltext_gegenprobe": "bestaetigt",
       "flags": [
         "human_review",
-        "kein_konsens"
+        "kein_konsens",
+        "reviewed"
       ],
       "prioritaet": 1
     }
