@@ -142,9 +142,19 @@ def _rating_impl(thesis, retrievals, glossary, party, model: str):
     # no consens reached after all retries = majority vote across attempts
     final_wertung = _majority_rating(history, blind)
 
+    # `rating["zitat"]` is empty whenever `rating["wertung"]` itself was 0
+    # (both prompts require that). On a genuine dissent, that quote is the
+    # one thing a human reviewer needs to judge the disagreement, so if the
+    # rater's own side came up empty, fall back to the blind judge's quote -
+    # an empty `zitat` on a `kein_konsens` case is unreviewable.
+    zitat = rating.get("zitat") or blind.get("zitat") or ""
+    zitat_nummer = rating.get("zitat_nummer") if rating.get("zitat") else blind.get("zitat_nummer")
+
     return {
         **rating,
         "wertung": final_wertung,
+        "zitat": zitat,
+        "zitat_nummer": zitat_nummer,
         "consens": False,
         "judge_bewertung": blind["wertung"],
         "attempts": max_retries,
