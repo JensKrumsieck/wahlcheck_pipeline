@@ -297,7 +297,7 @@ def build_antwort(
         "sicherheit": rating["sicherheit"],
         "zitat": zitat,
         "seite": seite,
-        "kommentar": None,
+        "kommentar": rating.get("kommentar"),
         "modell": model,
         "eingelesen": eingelesen,
         "pruefung": _pruefung(rating, verified, retrieval_score, gegenprobe),

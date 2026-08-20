@@ -260,9 +260,6 @@ conclusion in a quote that is genuinely on-mechanism, prefer that one. Only agre
 with a rating because its evidence and reasoning hold up - never merely because it
 was presented as the objection, or because it was listed first or second.
 
-Do not use external political knowledge. All conclusions must be grounded in the
-supplied sources.
-
 Output JSON:
 - `wertung`: `1`, `0`, or `-1`.
 - `sicherheit`: `"hoch"`, `"mittel"`, or `"niedrig"`.
