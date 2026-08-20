@@ -62,11 +62,11 @@
   {
     "these": "Der Nahverkehr soll perspektivisch für alle kostenlos werden.",
     "partei": "AfD",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "niedrig",
     "zitat": "",
     "seite": null,
-    "kommentar": "Die vorliegenden Programmstellen betonen bezahlbare, funktionierende Verkehrsinfrastruktur und finanzielle Disziplin, lehnen jedoch keine konkreten Maßnahmen zum kostenfreien Nahverkehr ab. Da keine Quelle den kostenlosen Nahverkehr explizit unterstützt oder ablehnt und die Hinweise zu Kosten und Belastungen nicht eindeutig auf das Fahrpreiskonzept übertragbar sind, lässt sich keine klare Position ableiten.",
+    "kommentar": "Die vorliegenden Programmstellen betonen bezahlbare, funktionierende Verkehrsinfrastruktur und finanzielle Disziplin, lehnen jedoch keine konkreten Maßnahmen zum kostenfreien Nahverkehr ab. Da keine Quelle den kostenlosen Nahverkehr explizit unterstützt oder ablehnt und die Hinweise zu Kosten und Belastungen nicht eindeutig auf das Fahrpreiskonzept übertragbar sind, lässt sich keine klare Position ableiten. In diesem Fall wird davon ausgegangen, dass der aktuelle Zustand beibehalten werden soll.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -75,7 +75,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
