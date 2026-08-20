@@ -1,0 +1,28 @@
+name: 📚 Build Release
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Create ZIP
+        run: |
+          cd build/antworten
+          zip -r ../../wahlcheck-antworten.zip .
+
+      - name: Upload ZIP to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: wahlcheck-antworten.zip
