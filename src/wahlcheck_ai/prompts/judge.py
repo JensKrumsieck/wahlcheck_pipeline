@@ -322,7 +322,7 @@ def compare(these, rating: dict, blind: dict, model: str) -> dict:
     ERSTE_BEWERTUNG:
     RATING: {rating["wertung"]} (Sicherheit: {rating["sicherheit"]})
     ZITAT: {rating["zitat"]}
-    KOMMENTAR: {rating["kommentar"]}
+    KOMMENTAR: {rating.get("kommentar")}
 
     ZWEITE_BEWERTUNG:
     RATING: {blind["wertung"]} (Sicherheit: {blind["sicherheit"]})
