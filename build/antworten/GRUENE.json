@@ -699,11 +699,11 @@
   {
     "these": "Ein traditionelles Familienbild aus Vater, Mutter und Kindern soll Leitbild der kommunalen Familienpolitik sein.",
     "partei": "GRÜNE",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Die vorliegenden Programmstellen betonen Kinder- und Jugendförderung, soziale Teilhabe, Unterstützung von Alleinerziehenden und diversen Sorgegemeinschaften, ohne jedoch das Leitbild der Familienpolitik explizit zu benennen oder eine traditionelle Familienform zu befürworten bzw. abzulehnen. Ein klares Ja‑ oder Nein‑Verhältnis zum vorgeschlagenen traditionellen Familienbild lässt sich daraus nicht ableiten.",
+    "zitat": "Menschen unterschiedlicher sexueller Orientierung und geschlechtlicher Identität sind ein selbstverständlicher Teil unserer Stadtgesellschaft.",
+    "seite": 58,
+    "kommentar": "Die vorliegende Textstelle widerspricht implizit der These.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -712,7 +712,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "bestaetigt",
-      "flags": [],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
