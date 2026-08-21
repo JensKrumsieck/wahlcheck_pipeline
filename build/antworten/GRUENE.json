@@ -535,7 +535,7 @@
   {
     "these": "Städtische Unternehmen (Energie, Wohnen, ÖPNV) sollen stärker rekommunalisiert werden.",
     "partei": "GRÜNE",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "hoch",
     "zitat": "Rekommunalisierung prüfen und kommunalen Einfluss ausbauen: … Bei zentraler Infrastruktur wie Energie, Wasser, Wohnen, Mobilität … Rekommunalisierungen … sollen dort geprüft werden, wo sie langfristig mehr Gemeinwohlorientierung, Transparenz, Versorgungssicherheit, Klimaschutz oder finanzielle Stabilität schaffen.",
     "seite": 73,
@@ -635,11 +635,11 @@
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
     "partei": "GRÜNE",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "niedrig",
-    "zitat": "",
-    "seite": null,
-    "kommentar": "Die Programme betonen den Ausbau der Schulsozialarbeit, vor allem bedarfs­gerecht und vorrangig an Grundschulen mit besonderem Unterstützungsbedarf, und sprechen von neuen kommunalen Stellen für Schulpsycholog*innen. Ein flächendeckendes Ziel, an jeder Schule mindestens eine feste Stelle für Schulsozialarbeit einzurichten, wird jedoch nicht ausdrücklich genannt, noch wird ein generelles Gegenstück dazu formuliert. Daher lässt sich aus den vorliegenden Quellen nicht eindeutig ableiten, ob die These unterstützt oder abgelehnt wird.",
+    "zitat": "Wir bauen die Schulsozialarbeit bedarfsgerecht aus, vorrangig an Grundschulen mit besonderem Unterstützungsbedarf. ",
+    "seite": 45,
+    "kommentar": "Die Programme betonen den Ausbau der Schulsozialarbeit, vor allem bedarfs­gerecht und vorrangig an Grundschulen mit besonderem Unterstützungsbedarf, und sprechen von neuen kommunalen Stellen für Schulpsycholog*innen.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -649,7 +649,8 @@
       "judge_dissens": false,
       "volltext_gegenprobe": "abweichend",
       "flags": [
-        "volltext_fund"
+        "volltext_fund",
+        "reviewed"
       ],
       "prioritaet": 1
     }
@@ -657,7 +658,7 @@
   {
     "these": "Das geplante 'Haus der Musik' soll wie beschlossen umgesetzt werden.",
     "partei": "GRÜNE",
-    "wertung": 0,
+    "wertung": -1,
     "sicherheit": "hoch",
     "zitat": "Bei den Planungen zum \"Haus der Musik\" steht für uns die kulturelle Bildungsarbeit und die angemessene und langfristige Unterbringung der Musikschule an erster Stelle.",
     "seite": 62,

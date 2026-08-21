@@ -77,7 +77,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "n/a",
-      "flags": ["reviewed"],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
@@ -301,7 +303,9 @@
       "retrieval_score": null,
       "judge_dissens": false,
       "volltext_gegenprobe": "bestaetigt",
-      "flags": ["reviewed"],
+      "flags": [
+        "reviewed"
+      ],
       "prioritaet": 0
     }
   },
@@ -633,11 +637,11 @@
   {
     "these": "An jeder Schule soll es mindestens eine feste Stelle für Schulsozialarbeit geben.",
     "partei": "CDU",
-    "wertung": 0,
+    "wertung": 1,
     "sicherheit": "mittel",
     "zitat": "Kommunale Schulsozialarbeit ist eine wichtige Ergänzung zur bestehenden Landesförderung. Wir wollen diese erhalten. Hierfür bilden wir einen Pool an Sozialarbeitern und binden sie bedarfsgerecht in die Schulen ein.",
     "seite": 14,
-    "kommentar": "Die einzigen Stellen, die Schulsozialarbeit erwähnen, sprechen von einem Pool von Sozialarbeiter*innen, die bedarfsgerecht in Schulen eingesetzt werden sollen (ID 67, 66). Sie sichern die Existenz von Schulsozialarbeit, legen jedoch keinen festen, dauerhaften Stellenanteil pro Schule fest, wie die These fordert. Damit handelt es sich nicht um explizite oder direkt implizite Bestätigung der konkreten Vorgabe, sondern bleibt unklar, ob jede Schule tatsächlich eine feste Stelle erhält.",
+    "kommentar": "Die einzigen Stellen, die Schulsozialarbeit erwähnen, sprechen von einem Pool von Sozialarbeiter*innen, die bedarfsgerecht in Schulen eingesetzt werden sollen.",
     "modell": "openwebui:GPT-OSS-120B",
     "eingelesen": "2026-08-19",
     "pruefung": {
@@ -649,7 +653,8 @@
       "flags": [
         "human_review",
         "kein_konsens",
-        "volltext_fund"
+        "volltext_fund",
+        "reviewed"
       ],
       "prioritaet": 2
     }
